@@ -14,4 +14,4 @@ git push origin --tags
 
 Você pode acessar essa versão do repositório na URL
 
-- <https://github.com/dados-mg/letters-datapackage/tree/reprexid>
+- <https://github.com/dados-mg/datapackage-reprex/tree/reprexid>
