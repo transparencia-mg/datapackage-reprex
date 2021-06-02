@@ -32,6 +32,14 @@
       "format": "csv",
       "encoding": "utf-8",
       "description": "Contém as seguintes informações para os estados brasileiros\n\n- Código\n- Nome\n- Sigla"
+    },
+    {
+      "name": "populacao",
+      "path": "serie_2001_2020_TCU.pdf",
+      "profile": "data-resource",
+      "format": "pdf",
+      "encoding": "utf-8",
+      "hash": "640478892225bdc39850a04a741b6159"
     }
   ],
   "keywords": [
