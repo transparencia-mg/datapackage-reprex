@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "estados",
-      "path": "estados.csv",
+      "path": "estados.xlsx",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -29,7 +29,7 @@
         ]
       },
       "title": "Estados brasileiros",
-      "format": "csv",
+      "format": "xlsx",
       "encoding": "utf-8",
       "description": "Contém as seguintes informações para os estados brasileiros\n\n- Código\n- Nome\n- Sigla"
     }
