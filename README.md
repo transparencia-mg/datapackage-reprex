@@ -2,7 +2,7 @@
 
 Para entender o objetivo e funcionamento desse repositório leia o arquivo README do branch main disponível [aqui](https://github.com/dados-mg/datapackage-reprex/blob/main/README.md).
 
-## Teste a existência do arquivo datapackage.json na raiz do dataset para sistemas operacionais distintos
+## Testa a existência do arquivo datapackage.json na raiz do dataset para sistemas operacionais diferentes de linux
 
 - Teste necessário para fechamento do [issue 21 do repositório dpkgckanmg](https://github.com/dados-mg/dpkgckanmg/issues/21)
 - Testes solicitado
