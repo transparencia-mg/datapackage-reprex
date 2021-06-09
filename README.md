@@ -22,7 +22,7 @@ source venv/bin/activate
 
 # Instalar pacote dpkgckanmg de teste armazenado neste branch
 # Prestar atenção no window para necessidade de instalar utilizando "..\dpkgckanmg"
-(venv) ➜ dataset git:(windows-datapackage-identification) pip install -e ../dpkgckanmg
+(venv) ➜ dataset git:(windows-datapackage-identification): pip install -e ../dpkgckanmg
 
 # Testar função publish
 $ python
@@ -56,3 +56,22 @@ $ python
 Datapackage.json não existe
 Fim da Função Publish
 ```
+
+- 3° desconsiderando modificações na branch (**não commitar estas modificações no repositório online**)
+```
+# Sair do console python
+>>> exit()
+
+# Desativar e limpar ambiente
+(venv) ➜  dataset git:(os-datapackage-identification) ✗ deactivate
+$ rm -rf venv && python3.9 -m venv venv
+
+# Voltar para pasta raiz datapackage-reprex
+cd ..
+
+# Desconsidere todas as modificações realizadas
+$ git restore .
+
+
+
+
