@@ -5,10 +5,8 @@ Para entender o objetivo e funcionamento desse repositório leia o arquivo READM
 ## Testa a existência do arquivo datapackage.json na raiz do dataset para sistemas operacionais diferentes de linux
 
 - Teste necessário para fechamento do [issue 21 do repositório dpkgckanmg](https://github.com/dados-mg/dpkgckanmg/issues/21)
-- Testes solicitado
+- 1° teste - Verificar existência do arquivo datapackage.json
 ```
-# 1° - Verificar existência do arquivo datapackage.json
-
 # Clonar e acessar o projeto
 $ git clone git@github.com:dados-mg/datapackage-reprex.git
 $ cd datapackage-reprex
@@ -38,9 +36,9 @@ Datapackage.json existe
 Fim da Função Publish
 ```
 
-```
-# 1° - Verificar a não existência do arquivo datapackage.json
+- 2° teste - Verificar a não existência do arquivo datapackage.json
 
+```
 # Sair do console python
 >>> exit()
 
