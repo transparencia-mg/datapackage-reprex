@@ -1,27 +1,59 @@
 # Data packages for Reproducible Examples
 
-Esse repositório armazena exemplos de [data packages](https://specs.frictionlessdata.io/) para construção de [minimal, reproducible examples (reprex)](https://stackoverflow.com/help/minimal-reproducible-example)
+Para entender o objetivo e funcionamento desse repositório leia o arquivo README do branch main disponível [aqui](https://github.com/dados-mg/datapackage-reprex/blob/main/README.md).
 
-Ao identificar um data package com algum caso de uso específico que merece ser testado, crie um novo branch, faça as alterações necessárias e, após realizar os commits, faça push das mudanças.
+## Teste a existência do arquivo datapackage.json na raiz do dataset para sistemas operacionais distintos
 
-```bash
-git checkout -b reprex-example
-# alterações necessárias
-git add .
-git commit -m "Altera algo significativo para esse exemplo"
-git push --set-upstream origin reprex-example
+- Teste necessário para fechamento do [issue 21 do repositório dpkgckanmg](https://github.com/dados-mg/dpkgckanmg/issues/21)
+- Testes solicitado
+```
+# 1° - Verificar existência do arquivo datapackage.json
+
+# Clonar o projeto
+$ git clone git@github.com:dados-mg/datapackage-reprex.git
+
+# Acessar o branch do teste
+$ git co windows-datapackage-identification
+
+# Acessar pasta dataset
+$ cd dataset
+
+# Ativar ambiente
+source venv/bin/activate
+
+# Instalar pacote dpkgckanmg de teste armazenado neste branch
+# Prestar atenção no window para necessidade de instalar utilizando "..\dpkgckanmg"
+(venv) ➜ dataset git:(windows-datapackage-identification) pip install -e ../dpkgckanmg
+
+# Testar função publish
+$ python
+>>> from dpkgckanmg.publish import publish
+>>> publish()
 ```
 
-Você pode acessar essa versão do repositório na URL
+- Resposta esperada
+```
+Datapackage.json existe
+Fim da Função Publish
+```
 
-- <https://github.com/dados-mg/datapackage-reprex/tree/reprex-example>
+```
+# 1° - Verificar a não existência do arquivo datapackage.json
 
-_Não faça commits em branches que você não criou antes de expressamente conversar com o autor_. Além disso, atualize a lista abaixo:
+# Sair do console python
+>>> exit()
 
-- [root-datapackage](https://github.com/dados-mg/datapackage-reprex/tree/root-datapackage): Data package [mínimo](https://specs.frictionlessdata.io/data-package/#illustrative-structure) com arquivos armazenados na raiz do diretório (ie. sem pasta `data/`)
-- [pdf-resource](https://github.com/dados-mg/datapackage-reprex/tree/pdf-resource): Data package com um arquivo `.pdf` como recurso
-- [pdf-resource-sha256](https://github.com/dados-mg/datapackage-reprex/tree/pdf-resource-sha256): Data package com um arquivo `.pdf` como recurso e algoritmo de [checksum sha256](https://en.wikipedia.org/wiki/SHA-2)
-- [xlsx-resource](https://github.com/dados-mg/datapackage-reprex/tree/xlsx-resource): Data package com um arquivo `.xlsx` como recurso
-- [foreign-key-constraint](https://github.com/dados-mg/datapackage-reprex/tree/foreign-key-constraint): Data package com múltiplos recursos e [restrição de chave estrangeira](https://specs.frictionlessdata.io/table-schema/#foreign-keys)
-- [git-lfs](https://github.com/dados-mg/datapackage-reprex/tree/git-lfs): Data package configurado para utilização do [git LFS](https://git-lfs.github.com/) na pasta `data/`
-  
+# Excluir o arquivo datapackage.json
+$ rm datapackage.json
+
+# Testar função publish
+$ python
+>>> from dpkgckanmg.publish import publish
+>>> publish()
+```
+
+- Resposta esperada
+```
+Datapackage.json não existe
+Fim da Função Publish
+```
