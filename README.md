@@ -9,8 +9,9 @@ Para entender o objetivo e funcionamento desse repositório leia o arquivo READM
 ```
 # 1° - Verificar existência do arquivo datapackage.json
 
-# Clonar o projeto
+# Clonar e acessar o projeto
 $ git clone git@github.com:dados-mg/datapackage-reprex.git
+$ cd datapackage-reprex
 
 # Acessar o branch do teste
 $ git co os-datapackage-identification
