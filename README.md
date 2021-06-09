@@ -13,7 +13,7 @@ Para entender o objetivo e funcionamento desse repositório leia o arquivo READM
 $ git clone git@github.com:dados-mg/datapackage-reprex.git
 
 # Acessar o branch do teste
-$ git co windows-datapackage-identification
+$ git co os-datapackage-identification
 
 # Acessar pasta dataset
 $ cd dataset
