@@ -25,3 +25,5 @@ _Não faça commits em branches que você não criou antes de expressamente conv
 - [foreign-key-constraint](https://github.com/dados-mg/datapackage-reprex/tree/foreign-key-constraint): Data package com múltiplos recursos e [restrição de chave estrangeira](https://specs.frictionlessdata.io/table-schema/#foreign-keys)
 - [git-lfs](https://github.com/dados-mg/datapackage-reprex/tree/git-lfs): Data package configurado para utilização do [git LFS](https://git-lfs.github.com/) na pasta `data/`
 - [Conferindo existência de datapackage.json na raiz do dataset em sistemas operacionais distintos](https://github.com/dados-mg/datapackage-reprex/tree/os-datapackage-identification)
+- [Typo Material frictionless - teste sem corrigir o erro](https://github.com/dados-mg/datapackage-reprex/tree/frictionless-online-validate-whith-folder-typo)
+- [Typo Material frictionless - teste corrigindo erro](https://github.com/dados-mg/datapackage-reprex/tree/frictionless-online-validate-whith-folder-typo-correction)
