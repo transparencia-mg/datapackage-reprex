@@ -4,11 +4,13 @@ on:
   push:
     branches:
       - frictionless-online-validate-whith-folder-typo
+      - frictionless-online-validate-whith-folder-typo-correction
     tags:
       - v*.*.*
   pull_request:
     branches:
       - frictionless-online-validate-whith-folder-typo
+      - frictionless-online-validate-whith-folder-typo-correction
 
 jobs:
   validate:
