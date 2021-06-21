@@ -1,0 +1,61 @@
+{
+  "resources": [
+    {
+      "path": "ftp://ftp.ncdc.noaa.gov/pub/data/noaa/isd-history.csv",
+      "name": "isd-history",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "USAF",
+            "type": "string"
+          },
+          {
+            "name": "WBAN",
+            "type": "integer"
+          },
+          {
+            "name": "STATION NAME",
+            "type": "string"
+          },
+          {
+            "name": "CTRY",
+            "type": "string"
+          },
+          {
+            "name": "STATE",
+            "type": "any"
+          },
+          {
+            "name": "ICAO",
+            "type": "string"
+          },
+          {
+            "name": "LAT",
+            "type": "number"
+          },
+          {
+            "name": "LON",
+            "type": "number"
+          },
+          {
+            "name": "ELEV(M)",
+            "type": "number"
+          },
+          {
+            "name": "BEGIN",
+            "type": "integer"
+          },
+          {
+            "name": "END",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "ftp-data-package"
+}
