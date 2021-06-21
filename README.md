@@ -27,3 +27,4 @@ _Não faça commits em branches que você não criou antes de expressamente conv
 - [Conferindo existência de datapackage.json na raiz do dataset em sistemas operacionais distintos](https://github.com/dados-mg/datapackage-reprex/tree/os-datapackage-identification)
 - [Typo Material frictionless - teste sem corrigir o erro](https://github.com/dados-mg/datapackage-reprex/tree/frictionless-online-validate-whith-folder-typo)
 - [Typo Material frictionless - teste corrigindo erro](https://github.com/dados-mg/datapackage-reprex/tree/frictionless-online-validate-whith-folder-typo-correction)
+- [ftp-resource](https://github.com/dados-mg/datapackage-reprex/tree/ftp-resource): Data package com recurso utilizando FTP para armazenamento de arquivos
