@@ -11,7 +11,5 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          python-version: '3.9'
-      - run: pip install .
-      - run: python -m unittest discover -s dpckan/tests -p "test_*.py"
+      - name: Validate data
+        uses: frictionlessdata/repository@v0.8.0 # update to the latest version
