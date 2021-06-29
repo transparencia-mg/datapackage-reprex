@@ -1,0 +1,76 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "data-types",
+      "path": "data/data-types.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "string",
+            "title": "Variável tipo string",
+            "description": "Essa variável é do tipo\n-string",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "number",
+            "title": "Variável tipo number",
+            "description": "Essa variável é do tipo\n-number",
+            "type": "number",
+            "format": "default",
+            "groupChar": ".",
+            "decimalChar": ","
+          },
+          {
+            "name": "integer",
+            "title": "Variável tipo integer",
+            "description": "Essa variável é do tipo\n-integer",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "boolean",
+            "title": "Variável tipo boolean",
+            "description": "Essa variável é do tipo\n-boolean",
+            "type": "boolean",
+            "format": "default",
+            "trueValues": ["sim"],
+            "falseValues": ["não"]
+          },
+          {
+            "name": "date",
+            "title": "Variável tipo date",
+            "description": "Essa variável é do tipo\n-date",
+            "type": "date",
+            "format": "%d/%m/%y"
+          },
+          {
+            "name": "datetime",
+            "title": "Variável tipo datetime",
+            "description": "Essa variável é do tipo\n-datetime",
+            "type": "datetime",
+            "format": "default"
+          },
+          {
+            "name": "year",
+            "title": "Variável tipo year",
+            "description": "Essa variável é do tipo\n-year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "yearmonth",
+            "title": "Variável tipo yearmonth",
+            "description": "Essa variável é do tipo\n-yearmonth",
+            "type": "yearmonth",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "data-types",
+  "owner_org": "controladoria-geral-do-estado-cge"
+}
