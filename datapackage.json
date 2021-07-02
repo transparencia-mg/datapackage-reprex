@@ -3,74 +3,38 @@
   "resources": [
     {
       "name": "data-types",
-      "path": "data/data-types.csv",
+      "path": "file.csv",
       "profile": "tabular-data-resource",
-      "schema": {
-        "fields": [
-          {
-            "name": "string",
-            "title": "Variável tipo string",
-            "description": "Essa variável é do tipo\n-string",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "number",
-            "title": "Variável tipo number",
-            "description": "Essa variável é do tipo\n-number",
-            "type": "number",
-            "format": "default",
-            "groupChar": ".",
-            "decimalChar": ","
-          },
-          {
-            "name": "integer",
-            "title": "Variável tipo integer",
-            "description": "Essa variável é do tipo\n-integer",
-            "type": "integer",
-            "format": "default"
-          },
-          {
-            "name": "boolean",
-            "title": "Variável tipo boolean",
-            "description": "Essa variável é do tipo\n-boolean",
-            "type": "boolean",
-            "format": "default",
-            "trueValues": ["sim"],
-            "falseValues": ["não"]
-          },
-          {
-            "name": "date",
-            "title": "Variável tipo date",
-            "description": "Essa variável é do tipo\n-date",
-            "type": "date",
-            "format": "%d/%m/%y"
-          },
-          {
-            "name": "datetime",
-            "title": "Variável tipo datetime",
-            "description": "Essa variável é do tipo\n-datetime",
-            "type": "datetime",
-            "format": "default"
-          },
-          {
-            "name": "year",
-            "title": "Variável tipo year",
-            "description": "Essa variável é do tipo\n-year",
-            "type": "year",
-            "format": "default"
-          },
-          {
-            "name": "yearmonth",
-            "title": "Variável tipo yearmonth",
-            "description": "Essa variável é do tipo\n-yearmonth",
-            "type": "yearmonth",
-            "format": "default"
-          }
-        ]
-      }
+      "schema": "tableschema.json",
+      "dialect": "dialect.yaml",
+      "title": "Tipos de Dados",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "Esse recurso visa utilizar vários tipos diferentes de dados que aparecem na [Frictionless Specifications\n](https://specs.frictionlessdata.io/).\n\n## Tipos de dados\n\n- string\n- number\n- integer\n- boolean\n- date\n- datetime\n- year\n- yearmonth"
     }
   ],
   "name": "data-types",
-  "owner_org": "controladoria-geral-do-estado-cge"
+  "owner_org": "controladoria-geral-do-estado-cge",
+  "keywords": [
+    "reprex",
+    "open data",
+    "frictionless data"
+  ],
+  "title": "Complete Data Package",
+  "description": "Esse conjunto de dados visa utilizar todas as propriedades usuais de um pacote.\n\n## Controle de alterações\n\nAs alterações sofridas foram\n\n### v1.0.0\n\n- Update\n- Remove\n\n### v0.1.0\n\n- Add",
+  "homepage": "https://github.com/dados-mg/datapackage-reprex",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "title": "Francisco Alves",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
 }

@@ -1,0 +1,70 @@
+{
+        "fields": [
+          {
+            "name": "string",
+            "title": "Variável tipo string",
+            "description": "It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "number",
+            "title": "Variável tipo number",
+            "description": "Sometimes you want numbered lists:\n\n1. One\n2. Two\n3. Three\n\nSometimes you want bullet points:\n\n* Start a line with a star\n* Profit!\n\nAlternatively,\n\n- Dashes work just as well\n- And if you have sub points, put two spaces before the dash or star:\n  - Like this\n  - And this",
+            "type": "number",
+            "format": "default",
+            "groupChar": ".",
+            "decimalChar": ",",
+            "missingValues": ["NA"]
+          },
+          {
+            "name": "integer",
+            "title": "Variável tipo integer",
+            "description": "# Structured documents\n\nSometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.\n\n### This is a third-tier heading\n\nYou can use one `#` all the way up to `######` six for different heading sizes.\n\nIf you'd like to quote someone, use the > character before the line:\n\n> Coffee. The finest organic suspension ever devised... I beat the Borg with it.\n> - Captain Janeway",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "boolean",
+            "title": "Variável tipo boolean",
+            "description": "There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:\n\n    if (isAwesome){\n      return true\n    }\n\nGitHub also supports something called code fencing, which allows for multiple lines without indentation:\n\n```\nif (isAwesome){\n  return true\n}\n```\n\nAnd if you'd like to use syntax highlighting, include the language:\n\n```javascript\nif (isAwesome){\n  return true\n}\n```",
+            "type": "boolean",
+            "format": "default",
+            "trueValues": [
+              "sim"
+            ],
+            "falseValues": [
+              "não"
+            ]
+          },
+          {
+            "name": "date",
+            "title": "Variável tipo date",
+            "description": "Essa variável é do tipo\n-date",
+            "type": "date",
+            "format": "%d/%m/%y",
+            "missingValues": "99/99/99"
+          },
+          {
+            "name": "datetime",
+            "title": "Variável tipo datetime",
+            "description": "Essa variável é do tipo\n-datetime",
+            "type": "datetime",
+            "format": "default"
+          },
+          {
+            "name": "year",
+            "title": "Variável tipo year",
+            "description": "Essa variável é do tipo\n-year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "yearmonth",
+            "title": "Variável tipo yearmonth",
+            "description": "Essa variável é do tipo\n-yearmonth",
+            "type": "yearmonth",
+            "format": "default"
+          }
+        ]
+      }
