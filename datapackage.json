@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "data-types",
-      "path": "file.csv",
+      "path": "data/file.csv",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json",
       "dialect": "dialect.yaml",
@@ -11,6 +11,41 @@
       "format": "csv",
       "encoding": "UTF-8",
       "description": "Esse recurso visa utilizar vários tipos diferentes de dados que aparecem na [Frictionless Specifications\n](https://specs.frictionlessdata.io/).\n\n## Tipos de dados\n\n- string\n- number\n- integer\n- boolean\n- date\n- datetime\n- year\n- yearmonth"
+    },
+    {
+      "name": "path-as-url",
+      "title": "Title of resource",
+      "path": "https://raw.githubusercontent.com/dados-mg/letters-datapackage/master/data/letters-consonants.csv",
+      "description": "_NICE_ HELLO you `code`",
+      "schema": 
+      {
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "integer",
+                  "format": "default",
+                  "title": "Incremental counter",
+                  "description": "An integer counter for the rows."
+                },
+                {
+                  "name": "letter",
+                  "type": "string",
+                  "format": "default",
+                  "title": "Alfhabet letter",
+                  "description": "A lower case alfabet letter",
+                  "constraints": {
+                    "enum": ["a", "e", "i", "o", "u"]
+                  }
+                },
+                {
+                  "name": "vowel",
+                  "type": "boolean",
+                  "format": "default",
+                  "title": "Grammer of letter",
+                  "description": "Is the letter a vowel?"
+                }
+              ]
+      }
     }
   ],
   "name": "data-types",
@@ -20,8 +55,7 @@
     "open data",
     "frictionless data"
   ],
-  "title": "Complete Data Package",
-  "description": "Esse conjunto de dados visa utilizar todas as propriedades usuais de um pacote.\n\n## Controle de alterações\n\nAs alterações sofridas foram\n\n### v1.0.0\n\n- Update\n- Remove\n\n### v0.1.0\n\n- Add",
+  "title": "Change",
   "homepage": "https://github.com/dados-mg/datapackage-reprex",
   "version": "1.0.0",
   "contributors": [
