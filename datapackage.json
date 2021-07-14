@@ -2,6 +2,10 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "name": "minimal",
+      "path": "IN042012.pdf"
+    },
+    {
       "name": "data-types",
       "path": "data/file.csv",
       "profile": "tabular-data-resource",
@@ -14,7 +18,7 @@
     },
     {
       "name": "path-as-url",
-      "title": "Title of resource",
+      "title": "Recurso com URL externa",
       "path": "https://raw.githubusercontent.com/dados-mg/letters-datapackage/master/data/letters-consonants.csv",
       "description": "_NICE_ HELLO you `code`",
       "schema": 
@@ -53,22 +57,23 @@
   "keywords": [
     "reprex",
     "open data",
-    "frictionless data"
+    "frictionless data",
+    "open format"
   ],
-  "title": "Change",
+  "title": "Complete Data Package 4.0",
   "homepage": "https://github.com/dados-mg/datapackage-reprex",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "contributors": [
     {
-      "title": "Francisco Alves",
+      "title": "Francisco Alves de Oliveira Júnior",
       "role": "author"
     }
   ],
   "licenses": [
     {
-      "name": "CC0-1.0",
-      "title": "CC0 1.0",
-      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+  "name": "ODC-PDDL-1.0",
+  "path": "http://opendatacommons.org/licenses/pddl/",
+  "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ]
 }
