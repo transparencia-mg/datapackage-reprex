@@ -3,6 +3,7 @@
   "resources": [
     {
       "name": "minimal",
+      "title": "Now I have a title",
       "path": "IN042012.pdf"
     },
     {
