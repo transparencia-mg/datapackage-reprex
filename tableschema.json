@@ -20,7 +20,7 @@
           {
             "name": "integer",
             "title": "Variável tipo integer",
-            "description": "# Structured documents\n\nSometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.\n\n### This is a third-tier heading\n\nYou can use one `#` all the way up to `######` six for different heading sizes.\n\nIf you'd like to quote someone, use the > character before the line:\n\n> Coffee. The finest organic suspension ever devised... I beat the Borg with it.\n> - Captain Janeway",
+            "description": "# Structured documents\n\nSometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.\n\n### This is a third-tier heading\n\nYou can use one `#` all the way up to `######` six for different heading sizes.\n\nIf you'd like to quote someone, use the > character before the line:\n\n> Coffee. The finest organic suspension ever devised... I beat the Borg with it.\n> - Captain Janeway ![](https:\/\/www.mg.gov.br\/sites\/default\/files\/paginas\/imagens\/2018\/atendimento1.png) \r\n" ,
             "type": "integer",
             "format": "default"
           },

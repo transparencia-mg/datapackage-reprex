@@ -49,7 +49,8 @@
                   "title": "Grammer of letter",
                   "description": "Is the letter a vowel?"
                 }
-              ]
+              ],
+              "primaryKey": "id"
       }
     }
   ],
