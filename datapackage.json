@@ -1,0 +1,46 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "estados",
+      "path": "data/estados.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schemas/estados.yaml",
+      "title": "Estados brasileiros",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "Contém as seguintes informações para os estados brasileiros\n\n- Código\n- Nome\n- Sigla"
+    },
+    {
+      "name": "pib-per-capita",
+      "path": "data/pib-per-capita.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schemas/pib-per-capita.yaml",
+      "format": "csv",
+      "encoding": "utf-8"
+    }
+  ],
+  "keywords": [
+    "estados",
+    "brasil",
+    "federação"
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "homepage": "https://github.com/dados-mg/datapackage-reprex",
+  "version": "0.0.0.9000",
+  "contributors": [
+    {
+      "title": "Francisco Alves",
+      "role": "author"
+    }
+  ],
+  "name": "datapackage-reprex",
+  "title": "Data packages for Reproducible Examples",
+  "description": "Esse repositório armazena exemplos de [data packages](https://specs.frictionlessdata.io/) para construção de [minimal, reproducible examples (reprex)](https://stackoverflow.com/help/minimal-reproducible-example)"
+}
