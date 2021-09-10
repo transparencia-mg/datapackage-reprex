@@ -30,3 +30,4 @@ _Não faça commits em branches que você não criou antes de expressamente conv
 - [ftp-resource](https://github.com/dados-mg/datapackage-reprex/tree/ftp-resource): Data package com recurso utilizando FTP para armazenamento de arquivos
 - [data-types](https://github.com/dados-mg/datapackage-reprex/tree/data-types): Data package utilizando colunas com tipos variados
 - [yaml-schema](https://github.com/dados-mg/datapackage-reprex/tree/yaml-schema): Data package utilizando um table schema em um arquivo yaml externo
+- [bad-dialect-delimiter](https://github.com/dados-mg/datapackage-reprex/tree/bad-dialect-delimiter): Data package utilizando dialect com separador incorreto
