@@ -6,6 +6,9 @@
       "path": "data/estados.csv",
       "profile": "tabular-data-resource",
       "schema": "schema/estados.json",
+      "dialect": {
+        "delimiter": ","
+      },
       "title": "Estados brasileiros",
       "format": "csv",
       "encoding": "utf-8",
@@ -16,6 +19,9 @@
       "path": "data/pib-per-capita.csv",
       "profile": "tabular-data-resource",
       "schema": "schema/pib-per-capita.json",
+      "dialect": {
+        "delimiter": ","
+      },
       "format": "csv",
       "encoding": "utf-8"
     }
