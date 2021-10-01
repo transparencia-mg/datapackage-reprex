@@ -61,7 +61,7 @@
     "english grammar"
   ],
   "name": "letters-vowel",
-  "title": "A vowel letters dataset teste 5",
+  "title": "A vowel letters dataset teste Docker",
   "description": "This is a dataset that say if a given letter is a vowel",
   "homepage": "https://github.com/fjuniorr",
   "version": "0.1.0",
