@@ -31,3 +31,4 @@ _Não faça commits em branches que você não criou antes de expressamente conv
 - [data-types](https://github.com/dados-mg/datapackage-reprex/tree/data-types): Data package utilizando colunas com tipos variados
 - [yaml-schema](https://github.com/dados-mg/datapackage-reprex/tree/yaml-schema): Data package utilizando um table schema em um arquivo yaml externo
 - [bad-dialect-delimiter](https://github.com/dados-mg/datapackage-reprex/tree/bad-dialect-delimiter): Data package utilizando dialect com separador incorreto
+- [external-dialect](https://github.com/dados-mg/datapackage-reprex/tree/external-dialect): Data package utilizando dialect armazenado em arquivo json externo
