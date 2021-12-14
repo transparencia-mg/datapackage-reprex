@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "estados",
-      "path": "data.csv",
+      "path": "data.csv.gz",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json",
       "dialect": "dialect.json",
@@ -13,5 +13,12 @@
   ],
   "name": "datapackage-reprex",
   "title": "Data packages for Reproducible Examples",
-  "description": "Esse repositório armazena exemplos de [data packages](https://specs.frictionlessdata.io/) para construção de [minimal, reproducible examples (reprex)](https://stackoverflow.com/help/minimal-reproducible-example)"
+  "owner_org": "controladoria-geral-do-estado-cge",
+  "description": "Esse repositório armazena exemplos de [data packages](https://specs.frictionlessdata.io/) para construção de [minimal, reproducible examples (reprex)](https://stackoverflow.com/help/minimal-reproducible-example)",
+  "ckan_hosts": {
+    "https://homologa.cge.mg.gov.br/": {
+      "estados": "e1f72432-fe86-4127-9803-77d1d1095c2b",
+      "datapackage.json": "d413dfee-fd6a-45e7-8c27-c0f1b702c897"
+    }
+  }
 }
