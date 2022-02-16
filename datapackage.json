@@ -41,6 +41,7 @@
     }
   ],
   "name": "datapackage-reprex",
+  "owner_org": "controladoria-geral-do-estado-cge",
   "title": "Data packages for Reproducible Examples",
   "description": "Esse repositório armazena exemplos de [data packages](https://specs.frictionlessdata.io/) para construção de [minimal, reproducible examples (reprex)](https://stackoverflow.com/help/minimal-reproducible-example)"
 }
