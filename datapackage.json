@@ -4,6 +4,7 @@
     {
       "name": "letters-consonants",
       "path": "data/letters-consonants.csv",
+      "hash": "123456",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -60,8 +61,8 @@
     "letters",
     "english grammar"
   ],
-  "name": "letters-vowel",
-  "title": "A vowel letters dataset teste Docker",
+  "name": "letters-vowel-hash",
+  "title": "A vowel letters dataset teste hash",
   "description": "This is a dataset that say if a given letter is a vowel",
   "homepage": "https://github.com/fjuniorr",
   "version": "0.1.0",
