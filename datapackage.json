@@ -2,46 +2,29 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "estados",
-      "path": "data/estados.csv",
+      "name": "resource",
+      "path": "data.csv",
       "profile": "tabular-data-resource",
-      "schema": "schema/estados.json",
-      "title": "Estados brasileiros",
+      "schema": {
+        "fields": [
+          {
+            "name": "PERIOD_DECIMAL_CHAR",
+            "type": "number",
+            "decimalChar": "."
+          },
+          {
+            "name": "COMMA_DECIMAL_CHAR",
+            "type": "number",
+            "decimalChar": ","
+          }
+        ]
+      },
       "format": "csv",
-      "encoding": "utf-8",
-      "description": "Contém as seguintes informações para os estados brasileiros\n\n- Código\n- Nome\n- Sigla"
-    },
-    {
-      "name": "pib-per-capita",
-      "path": "data/pib-per-capita.csv",
-      "profile": "tabular-data-resource",
-      "schema": "schema/pib-per-capita.json",
-      "format": "csv",
-      "encoding": "utf-8"
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";"
+      }
     }
   ],
-  "keywords": [
-    "estados",
-    "brasil",
-    "federação"
-  ],
-  "licenses": [
-    {
-      "name": "CC0-1.0",
-      "title": "CC0 1.0",
-      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
-    }
-  ],
-  "homepage": "https://github.com/dados-mg/datapackage-reprex",
-  "version": "0.0.0.9000",
-  "contributors": [
-    {
-      "title": "Francisco Alves",
-      "role": "author"
-    }
-  ],
-  "name": "datapackage-reprex",
-  "owner_org": "controladoria-geral-do-estado-cge",
-  "title": "Data packages for Reproducible Examples",
-  "description": "Esse repositório armazena exemplos de [data packages](https://specs.frictionlessdata.io/) para construção de [minimal, reproducible examples (reprex)](https://stackoverflow.com/help/minimal-reproducible-example)"
+  "name": "datapackage-reprex"
 }
