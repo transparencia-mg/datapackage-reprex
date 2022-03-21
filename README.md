@@ -34,3 +34,4 @@ _Não faça commits em branches que você não criou antes de expressamente conv
 - [external-dialect](https://github.com/dados-mg/datapackage-reprex/tree/external-dialect): Data package utilizando dialect armazenado em arquivo json externo
 - [gzip](https://github.com/dados-mg/datapackage-reprex/tree/gzip): Data package com recursos com compressão gzip
 - [utf-8-bom](https://github.com/dados-mg/datapackage-reprex/tree/utf-8-bom): Data package com recursos com encoding UTF-8 with BOM
+- [invalid-decimal-char](https://github.com/dados-mg/datapackage-reprex/tree/invalid-decimal-char): Data package com separador de decimal `,` no table schema mas usando `.` no csv
