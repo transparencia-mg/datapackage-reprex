@@ -1,0 +1,27 @@
+{
+    "help": "http://example.com/endpoint",
+    "result": {
+        "fields": [
+            {
+                "id": "id",
+                "type": "integer"
+            },
+            {
+                "id": "value",
+                "type": "number"
+            }
+        ],
+        "records": [
+            {
+                "id": 1,
+                "value": "R$ 46.563,48"
+            },
+            {
+                "id": 2,
+                "value": "R$ 49.371,00"
+            }
+        ],
+        "sql": "select * from table"
+    },
+    "success": true
+}

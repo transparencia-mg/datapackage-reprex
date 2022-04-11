@@ -3,59 +3,35 @@
   "resources": [
     {
       "name": "estados",
-      "path": "estados.csv",
+      "path": "data.json",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "COD",
+            "name": "id",
             "type": "integer",
-            "format": "default",
-            "description": "Código de dois dígitos que identificam o estado\n\n> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
-            "title": "Código do Estado"
+            "format": "default"
           },
           {
-            "name": "NOME",
-            "type": "string",
+            "name": "value",
+            "type": "number",
             "format": "default",
-            "title": "Nome do Estado"
-          },
-          {
-            "name": "SIGLA",
-            "type": "string",
-            "format": "default",
-            "title": "Sigla do Estado"
+            "decimalChar": ",",
+            "groupChar": ".",
+            "bareNumber": false
           }
         ]
       },
-      "title": "Estados brasileiros",
-      "format": "csv",
+      "format": "json",
       "encoding": "utf-8",
-      "description": "Contém as seguintes informações para os estados brasileiros\n\n- Código\n- Nome\n- Sigla"
-    }
-  ],
-  "keywords": [
-    "estados",
-    "brasil",
-    "federação"
-  ],
-  "licenses": [
-    {
-      "name": "CC0-1.0",
-      "title": "CC0 1.0",
-      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+      "dialect": {
+        "keyed": true, 
+        "property": "result.records"
+      }
     }
   ],
   "homepage": "https://github.com/dados-mg/datapackage-reprex",
-  "version": "0.0.0.9000",
-  "contributors": [
-    {
-      "title": "Francisco Alves",
-      "role": "author"
-    }
-  ],
   "name": "datapackage-reprex",
-  "owner_org": "controladoria-geral-do-estado-cge",
   "title": "Data packages for Reproducible Examples",
   "description": "Esse repositório armazena exemplos de [data packages](https://specs.frictionlessdata.io/) para construção de [minimal, reproducible examples (reprex)](https://stackoverflow.com/help/minimal-reproducible-example)"
 }
