@@ -2,8 +2,33 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "estados",
-      "path": "data.json",
+      "name": "no-docs",
+      "path": "https://raw.githubusercontent.com/dados-mg/datapackage-reprex/json-data/data.json",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ]
+      },
+      "format": "json",
+      "encoding": "utf-8",
+      "dialect": {
+        "keyed": true, 
+        "property": "result.records"
+      }
+    },
+    {
+      "name": "docs",
+      "path": "https://raw.githubusercontent.com/dados-mg/datapackage-reprex/json-data/data.json",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
