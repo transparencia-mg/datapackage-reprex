@@ -35,3 +35,4 @@ _Não faça commits em branches que você não criou antes de expressamente conv
 - [gzip](https://github.com/dados-mg/datapackage-reprex/tree/gzip): Data package com recursos com compressão gzip
 - [utf-8-bom](https://github.com/dados-mg/datapackage-reprex/tree/utf-8-bom): Data package com recursos com encoding UTF-8 with BOM
 - [invalid-decimal-char](https://github.com/dados-mg/datapackage-reprex/tree/invalid-decimal-char): Data package com separador de decimal `,` no table schema mas usando `.` no csv
+- [json-data](https://github.com/dados-mg/datapackage-reprex/tree/json-data): Data package com dados armazenados em json
