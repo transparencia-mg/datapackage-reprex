@@ -28,6 +28,7 @@
     {
       "fields": "COD",
       "reference": {
+        "package": "https://raw.githubusercontent.com/dados-mg/datapackage-reprex/foreign-key-constraint/datapackage.json",
         "resource": "estados",
         "fields": "COD"
       }
