@@ -1,5 +1,5 @@
 {
-  "profile": "tabular-data-package",
+  "profile": "data-package",
   "resources": [
     {
       "name": "estados",
