@@ -1,7 +1,10 @@
 resources:
   - name: orders
     type: table
-    path: data/orders.csv
+    path: 
+      - data/orders2000.csv
+      - data/orders2001.csv
+      - data/orders2002.csv
     scheme: file
     format: csv
     encoding: utf-8
