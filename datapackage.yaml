@@ -17,6 +17,8 @@ resources:
           type: integer
         - name: produto
           type: string
+        - name: ano
+          type: integer  
       primaryKey:
         - id
       foreignKeys:

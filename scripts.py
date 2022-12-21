@@ -1,7 +1,7 @@
-from frictionless import describe
+from frictionless import Package
 import os
 
-# package = describe('data/*')
+package = Package('datapackage.yaml')
 # package.get_resource("users").schema.primary_key = ["id"]
 # package.get_resource("orders").schema.primary_key = ["id"]
 # package.get_resource("orders").schema.foreign_keys.append(
@@ -9,4 +9,4 @@ import os
 # )
 package.to_er_diagram(path='erd.dot')
 os.system("dot -Tpng erd.dot > package_erd.png")
-package.to_yaml("datapackage.yaml")
+# package.to_yaml("datapackage.yaml")
