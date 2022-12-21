@@ -1,0 +1,104 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "orders",
+      "type": "table",
+      "path": [
+        "data/orders2000.csv",
+        "data/orders2001.csv",
+        "data/orders2002.csv"
+      ],
+      "scheme": "file",
+      "format": "csv",
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer"
+          },
+          {
+            "name": "user_id",
+            "type": "integer"
+          },
+          {
+            "name": "produto",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          }
+        ],
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "user_id"
+            ],
+            "reference": {
+              "resource": "users",
+              "fields": [
+                "id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "users",
+      "type": "table",
+      "path": "data/users.csv",
+      "scheme": "file",
+      "format": "csv",
+      "encoding": "iso8859-9",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer"
+          },
+          {
+            "name": "name",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": []
+      }
+    }
+  ],
+  "keywords": [
+    "reprex",
+    "multiple files"
+  ],
+  "name": "multiple-files",
+  "title": "multiple files with one schema",
+  "description": "This is a dataset that has multiple files in one resource, 3 paths and one schema",
+  "homepage": "https://github.com/transparencia-mg/datapackage-reprex/tree/multiple-files",
+  "version": "0.0.9",
+  "owner_org": "controladoria-geral-do-estado-cge",
+  "contributors": [
+    {
+      "title": "André Amorim",
+      "role": "author",
+      "email": "andre.amorim@cge.mg.gov.br",
+      "organization": "controladoria-geral-do-estado-cge"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
+}
