@@ -40,3 +40,4 @@ _Não faça commits em branches que você não criou antes de expressamente conv
 - [frictionless-describe-dataset-template](https://github.com/dados-mg/datapackage-reprex/tree/frictionless-describe-dataset-template)
 - [generate-erd-pictures](https://github.com/dados-mg/datapackage-reprex/tree/generate-erd-pictures)
 - [test-frictionless-describe](https://github.com/dados-mg/datapackage-reprex/tree/test-frictionless-describe)
+- [test-frictionless-describe](https://github.com/dados-mg/datapackage-reprex/tree/test-datapackage-creator-datapackage.json)
