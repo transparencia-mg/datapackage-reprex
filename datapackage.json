@@ -1,0 +1,107 @@
+// 20230127110413
+// http://projetockan.cge.mg.gov.br/datapackage-creator/show-datapackage-json/b2f9eca5-8bd6-4ea8-9975-bc2a1b13c3c8
+
+{
+  "creator_user_id": "8c7df846-5e8b-41e1-b4f6-2f9e1352cdd8",
+  "id": "b2f9eca5-8bd6-4ea8-9975-bc2a1b13c3c8",
+  "metadata_created": "2023-01-27T13:22:28.389980",
+  "metadata_modified": "2023-01-27T13:55:23.145021",
+  "name": "teste-upload-estoria-03-sprint-03-parcial",
+  "owner_org": "b81f990e-6ed1-4832-b284-26f429392d39",
+  "private": false,
+  "title": "teste upload estoria 03 sprint 03 - Parcial",
+  "type": "dataset",
+  "version": "0.1",
+  "resources": [
+    {
+      "created": "2023-01-27T13:25:35.410034",
+      "description": "",
+      "encoding": "utf-8",
+      "format": "XLSX",
+      "hash": "",
+      "id": "db799320-8c7a-4216-9cae-65b47559725c",
+      "last_modified": "2023-01-27T13:25:35.381901",
+      "metadata_modified": "2023-01-27T13:25:35.400891",
+      "name": "test-xlsx",
+      "package_id": "b2f9eca5-8bd6-4ea8-9975-bc2a1b13c3c8",
+      "title": "",
+      "type": "tabular-data-resource",
+      "url_type": "upload",
+      "bytes": 4732,
+      "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "path": "http://projetockan.cge.mg.gov.br/dataset/b2f9eca5-8bd6-4ea8-9975-bc2a1b13c3c8/resource/db799320-8c7a-4216-9cae-65b47559725c/download/test_xlsx.xlsx"
+    },
+    {
+      "created": "2023-01-27T13:31:52.237024",
+      "description": "",
+      "encoding": "utf-8",
+      "format": "XLSX",
+      "hash": "",
+      "id": "cee9b00d-5280-435c-b4fa-71b260917f6e",
+      "last_modified": "2023-01-27T13:31:52.214590",
+      "metadata_modified": "2023-01-27T13:31:52.227928",
+      "name": "test-xlsx-2",
+      "package_id": "b2f9eca5-8bd6-4ea8-9975-bc2a1b13c3c8",
+      "title": "",
+      "type": "tabular-data-resource",
+      "url_type": "upload",
+      "bytes": 4732,
+      "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "path": "http://projetockan.cge.mg.gov.br/dataset/b2f9eca5-8bd6-4ea8-9975-bc2a1b13c3c8/resource/cee9b00d-5280-435c-b4fa-71b260917f6e/download/test_xlsx.xlsx"
+    },
+    {
+      "created": "2023-01-27T13:55:23.162494",
+      "description": "",
+      "encoding": "utf-8-sig",
+      "format": "CSV",
+      "hash": "",
+      "id": "86719569-4d09-41be-a752-bcaf25bd5bc4",
+      "last_modified": "2023-01-27T13:55:23.139658",
+      "metadata_modified": "2023-01-27T13:55:23.154669",
+      "name": "doacoes-comodatos-amigo-estado-mg",
+      "package_id": "b2f9eca5-8bd6-4ea8-9975-bc2a1b13c3c8",
+      "title": "",
+      "type": "tabular-data-resource",
+      "url_type": "upload",
+      "bytes": 66106,
+      "mediatype": "text/csv",
+      "path": "http://projetockan.cge.mg.gov.br/dataset/b2f9eca5-8bd6-4ea8-9975-bc2a1b13c3c8/resource/86719569-4d09-41be-a752-bcaf25bd5bc4/download/doacoes-comodatos-amigo-estado-mg.csv"
+    }
+  ],
+  "groups": [
+    
+  ],
+  "relationships_as_subject": [
+    
+  ],
+  "relationships_as_object": [
+    
+  ],
+  "description": "teste upload estoria 03 sprint 03 parcial",
+  "homepage": "teste",
+  "keywords": [
+    "testes"
+  ],
+  "contributors": [
+    {
+      "title": "admin",
+      "role": "publisher",
+      "path": "",
+      "email": "admin@admin.com"
+    },
+    {
+      "title": "admin",
+      "role": "author",
+      "path": "",
+      "email": "admin@admin.com"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "cc-by",
+      "title": "Creative Commons Attribution",
+      "path": "http://www.opendefinition.org/licenses/cc-by"
+    }
+  ],
+  "frequency": "daily"
+}
