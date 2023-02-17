@@ -41,3 +41,5 @@ _Não faça commits em branches que você não criou antes de expressamente conv
 - [generate-erd-pictures](https://github.com/dados-mg/datapackage-reprex/tree/generate-erd-pictures)
 - [test-frictionless-describe](https://github.com/dados-mg/datapackage-reprex/tree/test-frictionless-describe)
 - [test-frictionless-describe](https://github.com/dados-mg/datapackage-reprex/tree/test-datapackage-creator-datapackage.json)
+- [test-validation-038](https://github.com/dados-mg/datapackage-reprex/tree/test-validation-038)
+
