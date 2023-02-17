@@ -1,5 +1,4 @@
 # Text validação ckanext-datapackage-creator
 
-```yaml report
-descriptor: validation.json
-```
+- [001_validacao_publico_com_package](pages/001_validacao_publico_com_package.html)
+- [002_validacao_publico_com_validate](pages/002_validacao_publico_com_validate.html)

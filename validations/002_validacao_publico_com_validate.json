@@ -1,6 +1,6 @@
 {
     "version": "4.40.8",
-    "time": 0.827,
+    "time": 0.652,
     "errors": [],
     "tasks": [
         {
@@ -92,10 +92,9 @@
                     "delimiter": ";"
                 }
             },
-            "time": 0.367,
+            "time": 0.394,
             "scope": [
                 "hash-count-error",
-                "byte-count-error",
                 "field-count-error",
                 "row-count-error",
                 "blank-header",
@@ -28165,10 +28164,9 @@
                     "rows": 2
                 }
             },
-            "time": 0.456,
+            "time": 0.249,
             "scope": [
                 "hash-count-error",
-                "byte-count-error",
                 "field-count-error",
                 "row-count-error",
                 "blank-header",
@@ -28187,26 +28185,15 @@
                 "unique-error"
             ],
             "partial": false,
-            "errors": [
-                {
-                    "code": "byte-count-error",
-                    "name": "Byte Count Error",
-                    "tags": [
-                        "#file"
-                    ],
-                    "note": "expected is \"4732\" and actual is \"0\"",
-                    "message": "The data source does not match the expected byte count: expected is \"4732\" and actual is \"0\"",
-                    "description": "This error can happen if the data is corrupted."
-                }
-            ],
+            "errors": [],
             "stats": {
-                "errors": 1
+                "errors": 0
             },
-            "valid": false
+            "valid": true
         }
     ],
     "stats": {
-        "errors": 1001,
+        "errors": 1000,
         "tasks": 2
     },
     "valid": false

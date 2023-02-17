@@ -13,7 +13,7 @@ pip install -r requirements.txt
 - Atualizar relatório de validação
 
 ```
-python main.py
+make all
 ```
 
 - Visualizar relatório de validação:
