@@ -1,3 +1,4 @@
-ipdb
+ipdb==0.13.11
 frictionless==4.40.8
-livemark
+livemark==0.110.2
+python-dotenv==0.21.1

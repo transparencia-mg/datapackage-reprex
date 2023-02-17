@@ -1,6 +1,6 @@
 {
     "version": "4.40.8",
-    "time": 0.652,
+    "time": 0.653,
     "errors": [],
     "tasks": [
         {
@@ -92,7 +92,7 @@
                     "delimiter": ";"
                 }
             },
-            "time": 0.394,
+            "time": 0.378,
             "scope": [
                 "hash-count-error",
                 "field-count-error",
@@ -28164,7 +28164,7 @@
                     "rows": 2
                 }
             },
-            "time": 0.249,
+            "time": 0.265,
             "scope": [
                 "hash-count-error",
                 "field-count-error",

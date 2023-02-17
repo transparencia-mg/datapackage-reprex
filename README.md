@@ -10,7 +10,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-- Atualizar relatório de validação
+- Atualizar relatório de validação:
+
+Obs.: Necessário criar arquivo `.env` com chave `CKAN_TOKEN` para validar conjuntos privados.
 
 ```
 make all
@@ -19,7 +21,7 @@ make all
 - Visualizar relatório de validação:
 
 ```
-livemark start
+make start
 ```
 Deverá abrir automaticamente servidor rodando no endereço  http://localhost:7000/. Também é gerado arquivo `index.html` que poderá ser acessado localmente no browser caso não queira trabalhar com servidor ligado.
 

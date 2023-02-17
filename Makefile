@@ -21,3 +21,7 @@ $(HTML_FILES): pages/%.html : pages/%.md index.html
 index.html: index.md
 	@echo 'Building index.html file from index.md...'
 	@livemark build $< --target $@
+
+start:
+	@echo 'Starting livemark server...'
+	@livemark start

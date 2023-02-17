@@ -1,0 +1,128 @@
+{
+    "version": "4.40.8",
+    "time": 0.293,
+    "errors": [],
+    "tasks": [
+        {
+            "resource": {
+                "created": "2023-02-17T17:12:09.599643",
+                "description": "teste",
+                "encoding": "utf-8",
+                "format": "xlsx",
+                "id": "24276e9f-8f19-4d30-a49c-c48938366609",
+                "last_modified": "2023-02-17T17:12:09.576951",
+                "metadata_modified": "2023-02-17T17:12:09.593826",
+                "name": "test-xlsx-1",
+                "package_id": "adc66acf-4e14-414a-a862-01d0fbf20aff",
+                "title": "teste",
+                "type": "tabular-data-resource",
+                "url_type": "upload",
+                "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "path": "http://projetockan.cge.mg.gov.br/dataset/adc66acf-4e14-414a-a862-01d0fbf20aff/resource/24276e9f-8f19-4d30-a49c-c48938366609/download/test_xlsx-1.xlsx",
+                "schema": {
+                    "fields": [
+                        {
+                            "name": "ano",
+                            "description": "teste",
+                            "title": "ano",
+                            "format": "default",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "valor",
+                            "description": "valor",
+                            "title": "valor",
+                            "format": "default",
+                            "type": "integer"
+                        }
+                    ]
+                },
+                "profile": "tabular-data-resource",
+                "scheme": "http",
+                "hashing": "md5",
+                "stats": {
+                    "hash": "",
+                    "bytes": 0,
+                    "fields": 2,
+                    "rows": 2
+                }
+            },
+            "time": 0.281,
+            "scope": [
+                "hash-count-error",
+                "field-count-error",
+                "row-count-error",
+                "blank-header",
+                "extra-label",
+                "missing-label",
+                "blank-label",
+                "duplicate-label",
+                "incorrect-label",
+                "blank-row",
+                "primary-key-error",
+                "foreign-key-error",
+                "extra-cell",
+                "missing-cell",
+                "type-error",
+                "constraint-error",
+                "unique-error"
+            ],
+            "partial": false,
+            "errors": [
+                {
+                    "cell": "2021.0",
+                    "fieldName": "ano",
+                    "fieldNumber": 1,
+                    "fieldPosition": 1,
+                    "cells": [
+                        "2021.0",
+                        "150.0"
+                    ],
+                    "rowNumber": 1,
+                    "rowPosition": 2,
+                    "code": "type-error",
+                    "name": "Type Error",
+                    "tags": [
+                        "#table",
+                        "#row",
+                        "#cell"
+                    ],
+                    "note": "type is \"boolean/default\"",
+                    "message": "Type error in the cell \"2021.0\" in row \"2\" and field \"ano\" at position \"1\": type is \"boolean/default\"",
+                    "description": "The value does not match the schema type and format for this field."
+                },
+                {
+                    "cell": "2022.0",
+                    "fieldName": "ano",
+                    "fieldNumber": 1,
+                    "fieldPosition": 1,
+                    "cells": [
+                        "2022.0",
+                        "200.0"
+                    ],
+                    "rowNumber": 2,
+                    "rowPosition": 3,
+                    "code": "type-error",
+                    "name": "Type Error",
+                    "tags": [
+                        "#table",
+                        "#row",
+                        "#cell"
+                    ],
+                    "note": "type is \"boolean/default\"",
+                    "message": "Type error in the cell \"2022.0\" in row \"3\" and field \"ano\" at position \"1\": type is \"boolean/default\"",
+                    "description": "The value does not match the schema type and format for this field."
+                }
+            ],
+            "stats": {
+                "errors": 2
+            },
+            "valid": false
+        }
+    ],
+    "stats": {
+        "errors": 2,
+        "tasks": 1
+    },
+    "valid": false
+}

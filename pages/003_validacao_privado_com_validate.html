@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="None">
-<meta name="keywords" content="text,validação,ckanext-datapackage-creator">
+<meta name="description" content="Validação testada na  instância projeto ckan ,  ckanext-datapackage-creator 0.0.38">
+<meta name="keywords" content="validação,conjunto,público,com,método,validate">
 <link rel="icon" href="None">
-<title>Text validação ckanext-datapackage-creator</title>
+<title>Validação conjunto público com método validate</title>
 <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
 <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://unpkg.com/prismjs@1.23.0/themes/prism.css">
@@ -1223,6 +1223,7 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 }
 
 </style>
+<link rel="stylesheet" href="https://unpkg.com/frictionless-components@1.0.1/dist/frictionless-components.min.css">
 <style>
 
 #livemark-notes {
@@ -1279,29 +1280,60 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 </style>
 <style>
 
-#livemark-about {
+#livemark-topics {
   color: #888;
 }
 
-</style>
-<style>
-
-#livemark-links {
-  color: #888;
-}
-
-#livemark-links ul {
+#livemark-topics .toc>.toc-list {
   overflow: hidden;
   position: relative;
+}
+
+#livemark-topics .toc>.toc-list li {
+  list-style: none;
+}
+
+#livemark-topics .toc-list {
   padding-left: 0;
   margin: 0;
 }
 
-#livemark-links li {
-  list-style: none;
+#livemark-topics a.toc-link {
+  color: currentColor;
 }
 
-#livemark-links a {
+#livemark-topics a.toc-link:hover {
+  color: #80b2e6;
+}
+
+#livemark-topics .is-active-link {
+  font-weight: 700;
+}
+
+#livemark-topics ul.secondary {
+  margin-left: 20px;
+  display: none;
+}
+
+#livemark-topics li.is-active-li ul.secondary {
+  display: block;
+}
+
+#livemark-topics li.group a.primary::after {
+  content: "\f054";
+  font-size: 16px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 2px;
+  right: 0px;
+}
+
+#livemark-topics li.group.is-active-li a.primary::after {
+  content: "\f078";
+}
+
+#livemark-topics a {
   display: inline-block;
   color: currentColor;
   position: relative;
@@ -1311,23 +1343,7 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
   padding-bottom: 5px;
 }
 
-#livemark-links a:hover {
-  color: #80b2e6;
-}
-
-#livemark-links a[target="_blank"]:after {
-  content: "\f35d";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  vertical-align: text-top;
-  text-decoration: none;
-  display: inline-block;
-  color: #aaa;
-  font-size: 12px;
-  margin-left: -2px;
-}
-
-#livemark-links a[target="_blank"]:hover:after {
+#livemark-topics a:hover {
   color: #80b2e6;
 }
 
@@ -1575,8 +1591,8 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <div id="livemark-brand">
   <ul>
     <li>
-      <a class="active" href=".">
-        Text validação ckanext-datapackage-creator
+      <a class="active" href="..">
+        Validação conjunto público com método validate
       </a>
     </li>
   </ul>
@@ -1584,16 +1600,47 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 </div>
 <div id="livemark-main">
 <div id="livemark-notes">
-      <a href="https://github.com/transparencia-mg/datapackage-reprex/edit/main/index.md" target="_blank">Edit page </a> in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
-    (2023-02-17 14:40)
+      <a href="https://github.com/transparencia-mg/datapackage-reprex/edit/main/pages/003_validacao_privado_com_validate.md" target="_blank">Edit page </a> in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
+    (2023-02-17 14:38)
 </div>
 
-<h1>Text validação ckanext-datapackage-creator</h1>
+<h1>Validação conjunto público com método validate</h1>
+<p>Validação testada na <a href="http://projetockan.cge.mg.gov.br/">instância projeto ckan</a>, <a href="https://pypi.org/project/ckanext-datapackage-creator/">ckanext-datapackage-creator 0.0.38</a></p>
 <ul>
-<li><a href="pages/001_validacao_publico_com_package.html">Validação conunto publico com package</a></li>
-<li><a href="pages/002_validacao_publico_com_validate.html">Validação conjunto publico com validate</a></li>
-<li><a href="pages/003_validacao_privado_com_validate.html">Validação conjunto privado com validate</a></li>
+<li>
+<p>Conjunto: <a href="http://projetockan.cge.mg.gov.br/dataset/teste17022023-privado">teste17022023-privado</a></p>
+</li>
+<li>
+<p>Visibilidade: privado</p>
+</li>
+<li>
+<p>Metódo frictionless utilizado: Package.validate()</p>
+</li>
+<li>
+<p>Breve descrição do teste: </p>
+<ul>
+<li>Incluído campo <code>ano</code> do recurso <code>test-xlsx</code> (claramente texto) como <code>boolean</code></li>
 </ul>
+</li>
+<li>
+<p>Resultado:</p>
+<ul>
+<li>Validação campo <code>ano</code> do recurso <code>test-xlsx</code> falhou como era de se esperar (o mesmo não ocorreu no CKAN)</li>
+</ul>
+</li>
+</ul>
+<div><div class="livemark-report">
+  <div id="livemark-report-1">
+  </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  const report = {"errors": [], "stats": {"errors": 2, "tasks": 1}, "tasks": [{"errors": [{"cell": "2021.0", "cells": ["2021.0", "150.0"], "code": "type-error", "description": "The value does not match the schema type and format for this field.", "fieldName": "ano", "fieldNumber": 1, "fieldPosition": 1, "message": "Type error in the cell \"2021.0\" in row \"2\" and field \"ano\" at position \"1\": type is \"boolean/default\"", "name": "Type Error", "note": "type is \"boolean/default\"", "rowNumber": 1, "rowPosition": 2, "tags": ["#table", "#row", "#cell"]}, {"cell": "2022.0", "cells": ["2022.0", "200.0"], "code": "type-error", "description": "The value does not match the schema type and format for this field.", "fieldName": "ano", "fieldNumber": 1, "fieldPosition": 1, "message": "Type error in the cell \"2022.0\" in row \"3\" and field \"ano\" at position \"1\": type is \"boolean/default\"", "name": "Type Error", "note": "type is \"boolean/default\"", "rowNumber": 2, "rowPosition": 3, "tags": ["#table", "#row", "#cell"]}], "partial": false, "resource": {"created": "2023-02-17T17:12:09.599643", "description": "teste", "encoding": "utf-8", "format": "xlsx", "hashing": "md5", "id": "24276e9f-8f19-4d30-a49c-c48938366609", "last_modified": "2023-02-17T17:12:09.576951", "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "metadata_modified": "2023-02-17T17:12:09.593826", "name": "test-xlsx-1", "package_id": "adc66acf-4e14-414a-a862-01d0fbf20aff", "path": "http://projetockan.cge.mg.gov.br/dataset/adc66acf-4e14-414a-a862-01d0fbf20aff/resource/24276e9f-8f19-4d30-a49c-c48938366609/download/test_xlsx-1.xlsx", "profile": "tabular-data-resource", "schema": {"fields": [{"description": "teste", "format": "default", "name": "ano", "title": "ano", "type": "boolean"}, {"description": "valor", "format": "default", "name": "valor", "title": "valor", "type": "integer"}]}, "scheme": "http", "stats": {"bytes": 0, "fields": 2, "hash": "", "rows": 2}, "title": "teste", "type": "tabular-data-resource", "url_type": "upload"}, "scope": ["hash-count-error", "field-count-error", "row-count-error", "blank-header", "extra-label", "missing-label", "blank-label", "duplicate-label", "incorrect-label", "blank-row", "primary-key-error", "foreign-key-error", "extra-cell", "missing-cell", "type-error", "constraint-error", "unique-error"], "stats": {"errors": 2}, "time": 0.281, "valid": false}], "time": 0.293, "valid": false, "version": "4.40.8"}
+  const element = document.getElementById('livemark-report-1')
+  frictionlessComponents.render(frictionlessComponents.Report, {report}, element)
+});
+</script>
+</div>
 </div>
 <div id="livemark-right">
 
@@ -1602,26 +1649,10 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
   </iframe>
 </div>
 
-<div id="livemark-about">
-  <div>
-    None
+<div id="livemark-topics">
+  <div class="toc">
   </div>
 </div>
-
-<div id="livemark-links">
-  <ul>
-        <li>
-      <a href="https://github.com/transparencia-mg/datapackage-reprex/issues" target="_blank">
-        Report
-      </a>
-    </li>
-        <li>
-      <a href="https://github.com/transparencia-mg/datapackage-reprex/fork" target="_blank">
-        Fork
-      </a>
-    </li>
-      
-</ul></div>
 </div>
 <script src="https://unpkg.com/lodash@4.17.21/lodash.min.js"></script>
 <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
@@ -1663,6 +1694,59 @@ document.addEventListener("DOMContentLoaded", function () {
     link.classList.add("heading");
     heading.appendChild(link);
   });
+});
+
+</script>
+<script src="https://unpkg.com/frictionless-components@1.0.1/dist/frictionless-components.min.js"></script>
+<script src="https://unpkg.com/tocbot@4.12.3/dist/tocbot.min.js"></script>
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Start tocbot
+  tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: ".toc",
+    // Where to grab the headings to build the table of contents.
+    contentSelector: "#livemark-main",
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: "h2, h3",
+    // For headings inside relative or absolute positioned containers within content.
+    hasInnerContainers: true,
+    // Called each time a heading is parsed. Expects a string in return.
+    headingLabelCallback: (label) => {
+      label = label.replace(/(^#|#$)/g, "").trim();
+      // label = label.replace(/\(.*?\)$/g, "");
+      return label;
+    },
+    // Disable generating ordered lists (ol)
+    orderedList: false,
+    // Fix active link class
+    onClick: syncList,
+    scrollEndCallback: syncList,
+  });
+
+  // Style list
+  $("#livemark-topics .toc > ul").addClass("primary");
+  $("#livemark-topics .toc > ul > li").addClass("primary");
+  $("#livemark-topics .toc > ul > li > a").addClass("primary");
+  $("#livemark-topics .toc ul.is-collapsible").addClass("secondary");
+  $("#livemark-topics .toc ul.is-collapsible li").addClass("secondary");
+  $("#livemark-topics .toc ul.is-collapsible li > a").addClass("secondary");
+  for (const element of $("#livemark-topics .primary")) {
+    if ($(element).find(".secondary").length) {
+      $(element).addClass("group");
+    }
+  }
+
+  // Sync list
+  function syncList() {
+    for (const element of $("#livemark-topics li.primary")) {
+      if ($(element).find(".is-active-li").length) {
+        $(element).addClass("is-active-li");
+      }
+    }
+  }
+  syncList();
 });
 
 </script>
