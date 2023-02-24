@@ -1,0 +1,17 @@
+unidade;mes;ano;grau;escore;predicao_obito;saidas_rn;obitos_ocorridos;obitos_esperados
+HJK;Janeiro;2023;I;0 a 5;9,3;1;0;0,09
+HJK;Janeiro;2023;II;6 a 10;55,9;2;0;1,12
+HJK;Janeiro;2023;III;11 a 5 ;73,1;0;0;0
+HJK;Janeiro;2023;IV;> 15;100;0;0;0
+HRAD;Janeiro;2023;I;0 a 5;9,3;10;1;0,93
+HRAD;Janeiro;2023;II;6 a 10;55,9;2;2;1,12
+HRAD;Janeiro;2023;III;11 a 5 ;73,1;0;0;0
+HRAD;Janeiro;2023;IV;> 15;100;1;1;1
+HRJP;Janeiro;2023;I;0 a 5;9,3;1;0;0,09
+HRJP;Janeiro;2023;II;6 a 10;55,9;0;0;0
+HRJP;Janeiro;2023;III;11 a 5 ;73,1;0;0;0
+HRJP;Janeiro;2023;IV;> 15;100;0;0;0
+MOV;Janeiro;2023;I;0 a 5;9,3;1;0;0,09
+MOV;Janeiro;2023;II;6 a 10;55,9;1;1;0,56
+MOV;Janeiro;2023;III;11 a 5 ;73,1;0;0;0
+MOV;Janeiro;2023;IV;> 15;100;0;0;0
