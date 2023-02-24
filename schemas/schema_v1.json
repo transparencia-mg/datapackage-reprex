@@ -1,0 +1,72 @@
+{
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string",
+            "format": "default",
+            "title": "Unidade",
+            "description": "Sigla da unidade hospitalar"
+          },
+          {
+            "name": "mes",
+            "type": "string",
+            "format": "default",
+            "title": "Mês",
+            "description": "Mês referente ao dado"
+          },
+          {
+            "name": "ano",
+            "type": "number",
+            "format": "default",
+            "title": "Ano",
+            "description": "Ano referente ao dado",
+            "groupChar": "."
+          },
+          {
+            "name": "grau",
+            "type": "string",
+            "format": "default",
+            "title": "Grau",
+            "description": "Grau de gravidade do paciente"
+          },
+          {
+            "name": "escore",
+            "type": "string",
+            "format": "default",
+            "title": "Escore",
+            "description": "Pontuação de gravidade do paciente"
+          },
+          {
+            "name": "predicao_obito",
+            "type": "number",
+            "format": "default",
+            "title": "Predição de Óbito",
+            "description": "Taxa de predição de mortalidade",
+            "decimalChar": ","
+          },
+          {
+            "name": "saidas_rn",
+            "type": "number",
+            "format": "default",
+            "title": "Saídas",
+            "description": "Quantidade de saídas de recém nascido",
+            "groupChar": "."
+          },
+          {
+            "name": "obitos_ocorridos",
+            "type": "number",
+            "format": "default",
+            "title": "Óbitos Ocorridos",
+            "description": "Quantidade de óbitos ocorridos",
+            "groupChar": "."
+          },
+          {
+            "name": "obitos_esperados",
+            "type": "number",
+            "format": "default",
+            "title": "Óbitos esperados",
+            "description": "Quantidade de óbitos esperados",
+            "decimalChar": ","
+          }
+        ]
+      }

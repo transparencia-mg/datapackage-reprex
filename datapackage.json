@@ -1,0 +1,92 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "crib_2018",
+      "path": "data/crib_2018.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schemas/schema_v1.json",
+      "title": "CRIB 2018",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "CRIB - Clinical Risk Index for Babies que é um score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT) com peso ao nascer menor ou igual a 1500g ou Idade Gestacional menor que 31 semanas baseado na gravidade clínica inicial deste Recém Nato."
+    },
+    {
+      "name": "crib_2019",
+      "path": "data/crib_2019.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schemas/schema_v1.json",
+      "title": "CRIB 2019",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "CRIB - Clinical Risk Index for Babies que é um score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT) com peso ao nascer menor ou igual a 1500g ou Idade Gestacional menor que 31 semanas baseado na gravidade clínica inicial deste Recém Nato."
+    },
+    {
+      "name": "crib_2020",
+      "path": "data/crib_2020.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schemas/schema_v1.json",
+      "title": "CRIB 2020",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "CRIB - Clinical Risk Index for Babies que é um score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT) com peso ao nascer menor ou igual a 1500g ou Idade Gestacional menor que 31 semanas baseado na gravidade clínica inicial deste Recém Nato."
+    },
+    {
+      "name": "crib_2021",
+      "path": "data/crib_2021.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schemas/schema_v1.json",
+      "title": "CRIB 2021",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "CRIB - Clinical Risk Index for Babies que é um score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT) com peso ao nascer menor ou igual a 1500g ou Idade Gestacional menor que 31 semanas baseado na gravidade clínica inicial deste Recém Nato."
+    },
+    {
+      "name": "crib_2022",
+      "path": "data/crib_2022.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schemas/schema_v1.json",
+      "title": "CRIB 2022",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "CRIB - Clinical Risk Index for Babies que é um score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT) com peso ao nascer menor ou igual a 1500g ou Idade Gestacional menor que 31 semanas baseado na gravidade clínica inicial deste Recém Nato."
+    },
+    {
+      "name": "crib_2023",
+      "path": "data/crib_2023.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schemas/schema_v1.json",
+      "title": "CRIB 2023",
+      "format": "csv",
+      "encoding": "UTF-8",
+      "description": "CRIB - Clinical Risk Index for Babies que é um score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT) com peso ao nascer menor ou igual a 1500g ou Idade Gestacional menor que 31 semanas baseado na gravidade clínica inicial deste Recém Nato."
+    }
+  ],
+  "keywords": [
+    "CRIB"
+  ],
+  "name": "simula-dpckan",
+  "title": "Simula DPCKAN",
+  "description": "CRIB",
+  "homepage": "https://github.com/fhemig",
+  "owner_org": "controladoria-geral-do-estado-cge",
+  "frequência de atualização":"mensal",
+   "temporal": {
+    "start": "2018-01-01",
+    "end": "2023-01-31"
+  },
+  "contributors": [
+    {
+      "title": "Maristela Guimarães Cáfaro Ferreira",
+      "role": "author",
+      "email": "gtgi.codi@fhemig.mg.gov.br"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}

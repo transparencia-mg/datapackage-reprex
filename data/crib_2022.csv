@@ -1,0 +1,193 @@
+unidade;mes;ano;grau;escore;predicao_obito;saidas_rn;obitos_ocorridos;obitos_esperados
+HJK;Janeiro;2022;I;0 a 5;9,3;0;0;0
+HJK;Janeiro;2022;II;6 a 10;55,9;1;0;0,56
+HJK;Janeiro;2022;III;11 a 5 ;73,1;1;0;0,73
+HJK;Janeiro;2022;IV;> 15;100;0;0;0
+HJK;Fevereiro;2022;I;0 a 5;9,3;1;0;0,09
+HJK;Fevereiro;2022;II;6 a 10;55,9;2;0;1,12
+HJK;Fevereiro;2022;III;11 a 5 ;73,1;0;0;0
+HJK;Fevereiro;2022;IV;> 15;100;0;0;0
+HJK;Março;2022;I;0 a 5;9,3;0;0;0
+HJK;Março;2022;II;6 a 10;55,9;1;0;0,56
+HJK;Março;2022;III;11 a 5 ;73,1;1;1;0,73
+HJK;Março;2022;IV;> 15;100;0;0;0
+HJK;Abril;2022;I;0 a 5;9,3;0;0;0
+HJK;Abril;2022;II;6 a 10;55,9;0;0;0
+HJK;Abril;2022;III;11 a 5 ;73,1;0;0;0
+HJK;Abril;2022;IV;> 15;100;0;0;0
+HJK;Maio;2022;I;0 a 5;9,3;0;0;0
+HJK;Maio;2022;II;6 a 10;55,9;0;0;0
+HJK;Maio;2022;III;11 a 5 ;73,1;1;1;0,73
+HJK;Maio;2022;IV;> 15;100;0;0;0
+HJK;Junho;2022;I;0 a 5;9,3;0;0;0
+HJK;Junho;2022;II;6 a 10;55,9;0;0;0
+HJK;Junho;2022;III;11 a 5 ;73,1;2;0;1,46
+HJK;Junho;2022;IV;> 15;100;0;0;0
+HJK;Julho;2022;I;0 a 5;9,3;2;0;0,19
+HJK;Julho;2022;II;6 a 10;55,9;3;0;1,68
+HJK;Julho;2022;III;11 a 5 ;73,1;0;0;0
+HJK;Julho;2022;IV;> 15;100;0;0;0
+HJK;Agosto;2022;I;0 a 5;9,3;0;0;0
+HJK;Agosto;2022;II;6 a 10;55,9;0;0;0
+HJK;Agosto;2022;III;11 a 5 ;73,1;0;0;0
+HJK;Agosto;2022;IV;> 15;100;0;0;0
+HJK;Setembro;2022;I;0 a 5;9,3;0;0;0
+HJK;Setembro;2022;II;6 a 10;55,9;1;0;0,56
+HJK;Setembro;2022;III;11 a 5 ;73,1;0;0;0
+HJK;Setembro;2022;IV;> 15;100;0;0;0
+HJK;Outubro;2022;I;0 a 5;9,3;0;0;0
+HJK;Outubro;2022;II;6 a 10;55,9;1;0;0,56
+HJK;Outubro;2022;III;11 a 5 ;73,1;0;0;0
+HJK;Outubro;2022;IV;> 15;100;0;0;0
+HJK;Novembro;2022;I;0 a 5;9,3;1;0;0,09
+HJK;Novembro;2022;II;6 a 10;55,9;0;0;0
+HJK;Novembro;2022;III;11 a 5 ;73,1;0;0;0
+HJK;Novembro;2022;IV;> 15;100;0;0;0
+HJK;Dezembro;2022;I;0 a 5;9,3;0;0;0
+HJK;Dezembro;2022;II;6 a 10;55,9;0;0;0
+HJK;Dezembro;2022;III;11 a 5 ;73,1;2;0;1,46
+HJK;Dezembro;2022;IV;> 15;100;0;0;0
+HRAD;Janeiro;2022;I;0 a 5;9,3;8;1;0,74
+HRAD;Janeiro;2022;II;6 a 10;55,9;3;1;1,68
+HRAD;Janeiro;2022;III;11 a 5 ;73,1;1;0;0,73
+HRAD;Janeiro;2022;IV;> 15;100;0;0;0
+HRAD;Fevereiro;2022;I;0 a 5;9,3;8;0;0,74
+HRAD;Fevereiro;2022;II;6 a 10;55,9;0;0;0
+HRAD;Fevereiro;2022;III;11 a 5 ;73,1;0;0;0
+HRAD;Fevereiro;2022;IV;> 15;100;0;0;0
+HRAD;Março;2022;I;0 a 5;9,3;10;0;0,93
+HRAD;Março;2022;II;6 a 10;55,9;2;1;1,12
+HRAD;Março;2022;III;11 a 5 ;73,1;2;1;1,46
+HRAD;Março;2022;IV;> 15;100;1;1;1
+HRAD;Abril;2022;I;0 a 5;9,3;9;0;0,84
+HRAD;Abril;2022;II;6 a 10;55,9;0;0;0
+HRAD;Abril;2022;III;11 a 5 ;73,1;1;1;0,73
+HRAD;Abril;2022;IV;> 15;100;0;0;0
+HRAD;Maio;2022;I;0 a 5;9,3;7;0;0,65
+HRAD;Maio;2022;II;6 a 10;55,9;0;0;0
+HRAD;Maio;2022;III;11 a 5 ;73,1;1;1;0,73
+HRAD;Maio;2022;IV;> 15;100;1;1;1
+HRAD;Junho;2022;I;0 a 5;9,3;5;0;0,46
+HRAD;Junho;2022;II;6 a 10;55,9;2;0;1,12
+HRAD;Junho;2022;III;11 a 5 ;73,1;3;2;2,19
+HRAD;Junho;2022;IV;> 15;100;1;1;1
+HRAD;Julho;2022;I;0 a 5;9,3;8;0;0,74
+HRAD;Julho;2022;II;6 a 10;55,9;0;0;0
+HRAD;Julho;2022;III;11 a 5 ;73,1;0;0;0
+HRAD;Julho;2022;IV;> 15;100;0;0;0
+HRAD;Agosto;2022;I;0 a 5;9,3;8;1;0,74
+HRAD;Agosto;2022;II;6 a 10;55,9;3;0;1,68
+HRAD;Agosto;2022;III;11 a 5 ;73,1;2;0;1,46
+HRAD;Agosto;2022;IV;> 15;100;0;0;0
+HRAD;Setembro;2022;I;0 a 5;9,3;9;0;0,84
+HRAD;Setembro;2022;II;6 a 10;55,9;0;0;0
+HRAD;Setembro;2022;III;11 a 5 ;73,1;0;0;0
+HRAD;Setembro;2022;IV;> 15;100;2;2;2
+HRAD;Outubro;2022;I;0 a 5;9,3;6;0;0,56
+HRAD;Outubro;2022;II;6 a 10;55,9;3;1;1,68
+HRAD;Outubro;2022;III;11 a 5 ;73,1;0;0;0
+HRAD;Outubro;2022;IV;> 15;100;0;0;0
+HRAD;Novembro;2022;I;0 a 5;9,3;12;0;1,12
+HRAD;Novembro;2022;II;6 a 10;55,9;2;1;1,12
+HRAD;Novembro;2022;III;11 a 5 ;73,1;1;1;0,73
+HRAD;Novembro;2022;IV;> 15;100;0;0;0
+HRAD;Dezembro;2022;I;0 a 5;9,3;10;1;0,93
+HRAD;Dezembro;2022;II;6 a 10;55,9;1;1;0,56
+HRAD;Dezembro;2022;III;11 a 5 ;73,1;0;0;0
+HRAD;Dezembro;2022;IV;> 15;100;0;0;0
+HRJP;Janeiro;2022;I;0 a 5;9,3;1;0;0,09
+HRJP;Janeiro;2022;II;6 a 10;55,9;2;0;1,12
+HRJP;Janeiro;2022;III;11 a 5 ;73,1;1;1;0,73
+HRJP;Janeiro;2022;IV;> 15;100;0;0;0
+HRJP;Fevereiro;2022;I;0 a 5;9,3;1;0;0,09
+HRJP;Fevereiro;2022;II;6 a 10;55,9;2;0;1,12
+HRJP;Fevereiro;2022;III;11 a 5 ;73,1;0;0;0
+HRJP;Fevereiro;2022;IV;> 15;100;0;0;0
+HRJP;Março;2022;I;0 a 5;9,3;0;0;0
+HRJP;Março;2022;II;6 a 10;55,9;1;0;0,56
+HRJP;Março;2022;III;11 a 5 ;73,1;1;0;0,73
+HRJP;Março;2022;IV;> 15;100;1;1;1
+HRJP;Abril;2022;I;0 a 5;9,3;0;0;0
+HRJP;Abril;2022;II;6 a 10;55,9;1;1;0,56
+HRJP;Abril;2022;III;11 a 5 ;73,1;0;0;0
+HRJP;Abril;2022;IV;> 15;100;0;0;0
+HRJP;Maio;2022;I;0 a 5;9,3;0;0;0
+HRJP;Maio;2022;II;6 a 10;55,9;2;1;1,12
+HRJP;Maio;2022;III;11 a 5 ;73,1;0;0;0
+HRJP;Maio;2022;IV;> 15;100;0;0;0
+HRJP;Junho;2022;I;0 a 5;9,3;2;0;0,19
+HRJP;Junho;2022;II;6 a 10;55,9;1;1;0,56
+HRJP;Junho;2022;III;11 a 5 ;73,1;0;0;0
+HRJP;Junho;2022;IV;> 15;100;0;0;0
+HRJP;Julho;2022;I;0 a 5;9,3;0;0;0
+HRJP;Julho;2022;II;6 a 10;55,9;4;1;2,24
+HRJP;Julho;2022;III;11 a 5 ;73,1;2;0;1,46
+HRJP;Julho;2022;IV;> 15;100;0;0;0
+HRJP;Agosto;2022;I;0 a 5;9,3;1;0;0,09
+HRJP;Agosto;2022;II;6 a 10;55,9;2;0;1,12
+HRJP;Agosto;2022;III;11 a 5 ;73,1;0;0;0
+HRJP;Agosto;2022;IV;> 15;100;0;0;0
+HRJP;Setembro;2022;I;0 a 5;9,3;1;0;0,09
+HRJP;Setembro;2022;II;6 a 10;55,9;3;0;1,68
+HRJP;Setembro;2022;III;11 a 5 ;73,1;0;0;0
+HRJP;Setembro;2022;IV;> 15;100;2;2;2
+HRJP;Outubro;2022;I;0 a 5;9,3;1;0;0,09
+HRJP;Outubro;2022;II;6 a 10;55,9;2;0;1,12
+HRJP;Outubro;2022;III;11 a 5 ;73,1;2;1;1,46
+HRJP;Outubro;2022;IV;> 15;100;0;0;0
+HRJP;Novembro;2022;I;0 a 5;9,3;4;2;0,37
+HRJP;Novembro;2022;II;6 a 10;55,9;2;0;1,12
+HRJP;Novembro;2022;III;11 a 5 ;73,1;0;0;0
+HRJP;Novembro;2022;IV;> 15;100;0;0;0
+HRJP;Dezembro;2022;I;0 a 5;9,3;1;0;0,09
+HRJP;Dezembro;2022;II;6 a 10;55,9;1;0;0,56
+HRJP;Dezembro;2022;III;11 a 5 ;73,1;3;1;2,19
+HRJP;Dezembro;2022;IV;> 15;100;0;0;0
+MOV;Janeiro;2022;I;0 a 5;9,3;1;0;0,09
+MOV;Janeiro;2022;II;6 a 10;55,9;1;0;0,56
+MOV;Janeiro;2022;III;11 a 5 ;73,1;1;1;0,73
+MOV;Janeiro;2022;IV;> 15;100;0;0;0
+MOV;Fevereiro;2022;I;0 a 5;9,3;1;0;0,09
+MOV;Fevereiro;2022;II;6 a 10;55,9;4;1;2,24
+MOV;Fevereiro;2022;III;11 a 5 ;73,1;0;0;0
+MOV;Fevereiro;2022;IV;> 15;100;0;0;0
+MOV;Março;2022;I;0 a 5;9,3;0;0;0
+MOV;Março;2022;II;6 a 10;55,9;3;0;1,68
+MOV;Março;2022;III;11 a 5 ;73,1;2;0;1,46
+MOV;Março;2022;IV;> 15;100;0;0;0
+MOV;Abril;2022;I;0 a 5;9,3;0;0;0
+MOV;Abril;2022;II;6 a 10;55,9;5;1;2,8
+MOV;Abril;2022;III;11 a 5 ;73,1;0;0;0
+MOV;Abril;2022;IV;> 15;100;0;0;0
+MOV;Maio;2022;I;0 a 5;9,3;3;0;0,28
+MOV;Maio;2022;II;6 a 10;55,9;0;0;0
+MOV;Maio;2022;III;11 a 5 ;73,1;1;1;0,73
+MOV;Maio;2022;IV;> 15;100;0;0;0
+MOV;Junho;2022;I;0 a 5;9,3;2;0;0,19
+MOV;Junho;2022;II;6 a 10;55,9;1;1;0,56
+MOV;Junho;2022;III;11 a 5 ;73,1;0;0;0
+MOV;Junho;2022;IV;> 15;100;0;0;0
+MOV;Julho;2022;I;0 a 5;9,3;1;0;0,09
+MOV;Julho;2022;II;6 a 10;55,9;1;0;0,56
+MOV;Julho;2022;III;11 a 5 ;73,1;1;2;0,73
+MOV;Julho;2022;IV;> 15;100;0;0;0
+MOV;Agosto;2022;I;0 a 5;9,3;1;0;0,09
+MOV;Agosto;2022;II;6 a 10;55,9;2;0;1,12
+MOV;Agosto;2022;III;11 a 5 ;73,1;0;0;0
+MOV;Agosto;2022;IV;> 15;100;0;0;0
+MOV;Setembro;2022;I;0 a 5;9,3;0;0;0
+MOV;Setembro;2022;II;6 a 10;55,9;2;0;1,12
+MOV;Setembro;2022;III;11 a 5 ;73,1;1;0;0,73
+MOV;Setembro;2022;IV;> 15;100;0;0;0
+MOV;Outubro;2022;I;0 a 5;9,3;0;0;0
+MOV;Outubro;2022;II;6 a 10;55,9;1;0;0,56
+MOV;Outubro;2022;III;11 a 5 ;73,1;1;0;0,73
+MOV;Outubro;2022;IV;> 15;100;0;0;0
+MOV;Novembro;2022;I;0 a 5;9,3;2;0;0,19
+MOV;Novembro;2022;II;6 a 10;55,9;0;0;0
+MOV;Novembro;2022;III;11 a 5 ;73,1;4;1;2,92
+MOV;Novembro;2022;IV;> 15;100;0;0;0
+MOV;Dezembro;2022;I;0 a 5;9,3;2;0;0,19
+MOV;Dezembro;2022;II;6 a 10;55,9;2;0;1,12
+MOV;Dezembro;2022;III;11 a 5 ;73,1;2;0;1,46
+MOV;Dezembro;2022;IV;> 15;100;0;0;0

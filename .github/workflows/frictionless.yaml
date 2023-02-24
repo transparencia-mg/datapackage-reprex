@@ -1,0 +1,32 @@
+# this workflow will automate datapackage validation with frictionless
+# for more information see: https://repository.frictionlessdata.io/
+
+name: frictionless
+
+on: [push]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Checkout repository
+         uses: actions/checkout@v2
+       - name: Validate data
+         uses: frictionlessdata/repository@v1
+  update:
+    runs-on: ubuntu-latest
+    needs: validate
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+            python-version: 3.9
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Update data package to CKAN with dpckan
+        env:
+          CKAN_HOST: ${{ secrets.CKAN_HOST }}
+          CKAN_KEY: ${{ secrets.CKAN_KEY }}
+        run: dpckan --ckan-host "$CKAN_HOST" --ckan-key "$CKAN_KEY" dataset update

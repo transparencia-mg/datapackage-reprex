@@ -1,0 +1,7 @@
+{
+  "delimiter": ";",
+  "lineTerminator": "\r\n",
+  "quoteChar": "\"",
+  "doubleQuote": true,
+  "skipInitialSpace": false
+}

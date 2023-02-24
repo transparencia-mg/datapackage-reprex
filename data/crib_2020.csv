@@ -1,0 +1,192 @@
+unidade;mes;ano;grau;escore;predicao_obito;saidas_rn;obitos_ocorridos;obitos_esperados
+HJK;janeiro;2020;I;0 a 5;9,3;1;0;0,09
+HJK;janeiro;2020;II;6 a 10;55,9;2;0;1,12
+HJK;janeiro;2020;III;11 a 5 ;73,1;0;0;0
+HJK;janeiro;2020;IV;> 15;100;0;0;0
+HJK;fevereiro;2020;I;0 a 5;9,3;3;0;0,28
+HJK;fevereiro;2020;II;6 a 10;55,9;1;0;0,56
+HJK;fevereiro;2020;III;11 a 5 ;73,1;0;0;0
+HJK;fevereiro;2020;IV;> 15;100;0;0;0
+HJK;março;2020;I;0 a 5;9,3;1;0;0,09
+HJK;março;2020;II;6 a 10;55,9;0;0;0
+HJK;março;2020;III;11 a 5 ;73,1;0;0;0
+HJK;março;2020;IV;> 15;100;1;1;1
+HJK;abril;2020;I;0 a 5;9,3;1;0;0,09
+HJK;abril;2020;II;6 a 10;55,9;0;0;0
+HJK;abril;2020;III;11 a 5 ;73,1;0;0;0
+HJK;abril;2020;IV;> 15;100;0;0;0
+HJK;maio;2020;I;0 a 5;9,3;1;0;0,09
+HJK;maio;2020;II;6 a 10;55,9;2;0;1,12
+HJK;maio;2020;III;11 a 5 ;73,1;0;0;0
+HJK;maio;2020;IV;> 15;100;0;0;0
+HJK;junho;2020;I;0 a 5;9,3;1;0;0,09
+HJK;junho;2020;II;6 a 10;55,9;3;0;1,68
+HJK;junho;2020;III;11 a 5 ;73,1;0;0;0
+HJK;junho;2020;IV;> 15;100;0;0;0
+HJK;julho;2020;I;0 a 5;9,3;1;0;0,09
+HJK;julho;2020;II;6 a 10;55,9;0;0;0
+HJK;julho;2020;III;11 a 5 ;73,1;0;0;0
+HJK;julho;2020;IV;> 15;100;0;0;0
+HJK;agosto;2020;I;0 a 5;9,3;1;0;0,09
+HJK;agosto;2020;II;6 a 10;55,9;2;0;1,12
+HJK;agosto;2020;III;11 a 5 ;73,1;2;2;1,46
+HJK;agosto;2020;IV;> 15;100;0;0;0
+HJK;setembro;2020;I;0 a 5;9,3;0;0;0
+HJK;setembro;2020;II;6 a 10;55,9;0;0;0
+HJK;setembro;2020;III;11 a 5 ;73,1;1;0;0,73
+HJK;setembro;2020;IV;> 15;100;0;0;0
+HJK;outubro;2020;I;0 a 5;9,3;1;0;0,09
+HJK;outubro;2020;II;6 a 10;55,9;0;0;0
+HJK;outubro;2020;III;11 a 5 ;73,1;0;0;0
+HJK;outubro;2020;IV;> 15;100;0;0;0
+HJK;novembro;2020;I;0 a 5;9,3;0;0;0
+HJK;novembro;2020;II;6 a 10;55,9;2;1;1,12
+HJK;novembro;2020;III;11 a 5 ;73,1;0;0;0
+HJK;novembro;2020;IV;> 15;100;0;0;0
+HJK;dezembro;2020;I;0 a 5;9,3;0;0;0
+HJK;dezembro;2020;II;6 a 10;55,9;2;1;1,12
+HJK;dezembro;2020;III;11 a 5 ;73,1;0;0;0
+HJK;dezembro;2020;IV;> 15;100;0;0;0
+HRAD;janeiro;2020;I;0 a 5;9,3;4;0;0,37
+HRAD;janeiro;2020;II;6 a 10;55,9;2;0;1,12
+HRAD;janeiro;2020;III;11 a 5 ;73,1;2;1;1,46
+HRAD;janeiro;2020;IV;> 15;100;0;0;0
+HRAD;fevereiro;2020;I;0 a 5;9,3;5;0;0,47
+HRAD;fevereiro;2020;II;6 a 10;55,9;2;0;1,12
+HRAD;fevereiro;2020;III;11 a 5 ;73,1;1;0;0,73
+HRAD;fevereiro;2020;IV;> 15;100;1;1;1
+HRAD;março;2020;I;0 a 5;9,3;10;0;0,93
+HRAD;março;2020;II;6 a 10;55,9;3;2;1,68
+HRAD;março;2020;III;11 a 5 ;73,1;1;0;0,73
+HRAD;março;2020;IV;> 15;100;1;1;1
+HRAD;abril;2020;I;0 a 5;9,3;6;0;0,56
+HRAD;abril;2020;II;6 a 10;55,9;0;0;0
+HRAD;abril;2020;III;11 a 5 ;73,1;0;0;0
+HRAD;abril;2020;IV;> 15;100;2;0;2
+HRAD;maio;2020;I;0 a 5;9,3;5;0;0,47
+HRAD;maio;2020;II;6 a 10;55,9;3;1;1,68
+HRAD;maio;2020;III;11 a 5 ;73,1;0;0;0
+HRAD;maio;2020;IV;> 15;100;1;1;1
+HRAD;junho;2020;I;0 a 5;9,3;5;0;0,47
+HRAD;junho;2020;II;6 a 10;55,9;2;1;1,12
+HRAD;junho;2020;III;11 a 5 ;73,1;0;0;0
+HRAD;junho;2020;IV;> 15;100;0;0;0
+HRAD;julho;2020;I;0 a 5;9,3;4;0;0,37
+HRAD;julho;2020;II;6 a 10;55,9;0;0;0
+HRAD;julho;2020;III;11 a 5 ;73,1;1;1;0,73
+HRAD;julho;2020;IV;> 15;100;1;0;1
+HRAD;agosto;2020;I;0 a 5;9,3;9;0;0,84
+HRAD;agosto;2020;II;6 a 10;55,9;3;1;1,68
+HRAD;agosto;2020;III;11 a 5 ;73,1;1;1;0,73
+HRAD;agosto;2020;IV;> 15;100;1;1;1
+HRAD;setembro;2020;I;0 a 5;9,3;5;0;0,47
+HRAD;setembro;2020;II;6 a 10;55,9;0;0;0
+HRAD;setembro;2020;III;11 a 5 ;73,1;1;1;0,73
+HRAD;setembro;2020;IV;> 15;100;2;2;2
+HRAD;outubro;2020;I;0 a 5;9,3;5;0;0,47
+HRAD;outubro;2020;II;6 a 10;55,9;2;0;1,12
+HRAD;outubro;2020;III;11 a 5 ;73,1;1;1;0,73
+HRAD;outubro;2020;IV;> 15;100;2;2;2
+HRAD;novembro;2020;I;0 a 5;9,3;10;1;0,93
+HRAD;novembro;2020;II;6 a 10;55,9;3;0;1,68
+HRAD;novembro;2020;III;11 a 5 ;73,1;0;0;0
+HRAD;novembro;2020;IV;> 15;100;0;0;0
+HRAD;dezembro;2020;I;0 a 5;9,3;11;0;1,02
+HRAD;dezembro;2020;II;6 a 10;55,9;1;1;0,56
+HRAD;dezembro;2020;III;11 a 5 ;73,1;0;0;0
+HRAD;dezembro;2020;IV;> 15;100;0;0;0
+MOV;janeiro;2020;I;0 a 5;9,3;2;0;0,19
+MOV;janeiro;2020;II;6 a 10;55,9;0;0;0
+MOV;janeiro;2020;III;11 a 5 ;73,1;2;1;1,46
+MOV;janeiro;2020;IV;> 15;100;0;0;0
+MOV;fevereiro;2020;I;0 a 5;9,3;1;0;0,09
+MOV;fevereiro;2020;II;6 a 10;55,9;1;0;0,56
+MOV;fevereiro;2020;III;11 a 5 ;73,1;2;0;1,46
+MOV;fevereiro;2020;IV;> 15;100;1;1;1
+MOV;março;2020;I;0 a 5;9,3;1;0;0,09
+MOV;março;2020;II;6 a 10;55,9;0;0;0
+MOV;março;2020;III;11 a 5 ;73,1;0;0;0
+MOV;março;2020;IV;> 15;100;1;1;1
+MOV;abril;2020;I;0 a 5;9,3;3;0;0,28
+MOV;abril;2020;II;6 a 10;55,9;2;0;1,12
+MOV;abril;2020;III;11 a 5 ;73,1;3;2;2,19
+MOV;abril;2020;IV;> 15;100;0;0;0
+MOV;maio;2020;I;0 a 5;9,3;0;0;0
+MOV;maio;2020;II;6 a 10;55,9;1;0;0,56
+MOV;maio;2020;III;11 a 5 ;73,1;1;1;0,73
+MOV;maio;2020;IV;> 15;100;1;1;1
+MOV;junho;2020;I;0 a 5;9,3;1;0;0,09
+MOV;junho;2020;II;6 a 10;55,9;3;0;1,68
+MOV;junho;2020;III;11 a 5 ;73,1;3;0;2,19
+MOV;junho;2020;IV;> 15;100;2;2;2
+MOV;julho;2020;I;0 a 5;9,3;0;0;0
+MOV;julho;2020;II;6 a 10;55,9;3;0;1,68
+MOV;julho;2020;III;11 a 5 ;73,1;1;0;0,73
+MOV;julho;2020;IV;> 15;100;1;1;1
+MOV;agosto;2020;I;0 a 5;9,3;0;0;0
+MOV;agosto;2020;II;6 a 10;55,9;0;0;0
+MOV;agosto;2020;III;11 a 5 ;73,1;1;1;0,73
+MOV;agosto;2020;IV;> 15;100;3;1;3
+MOV;setembro;2020;I;0 a 5;9,3;0;0;0
+MOV;setembro;2020;II;6 a 10;55,9;3;0;1,68
+MOV;setembro;2020;III;11 a 5 ;73,1;2;0;1,46
+MOV;setembro;2020;IV;> 15;100;1;1;1
+MOV;outubro;2020;I;0 a 5;9,3;1;0;0,09
+MOV;outubro;2020;II;6 a 10;55,9;1;0;0,56
+MOV;outubro;2020;III;11 a 5 ;73,1;0;0;0
+MOV;outubro;2020;IV;> 15;100;0;0;0
+MOV;novembro;2020;I;0 a 5;9,3;1;0;0,09
+MOV;novembro;2020;II;6 a 10;55,9;5;0;2,8
+MOV;novembro;2020;III;11 a 5 ;73,1;1;0;0,73
+MOV;novembro;2020;IV;> 15;100;0;0;0
+MOV;dezembro;2020;I;0 a 5;9,3;4;1;0,37
+MOV;dezembro;2020;II;6 a 10;55,9;3;1;1,68
+MOV;dezembro;2020;III;11 a 5 ;73,1;2;1;1,46
+MOV;dezembro;2020;IV;> 15;100;0;0;0
+HRJP;janeiro;2020;I;0 a 5;9,3;2;0;0,19
+HRJP;janeiro;2020;II;6 a 10;55,9;2;1;1,12
+HRJP;janeiro;2020;III;11 a 5 ;73,1;0;0;0
+HRJP;janeiro;2020;IV;> 15;100;0;0;0
+HRJP;fevereiro;2020;I;0 a 5;9,3;1;0;0,09
+HRJP;fevereiro;2020;II;6 a 10;55,9;2;0;1,12
+HRJP;fevereiro;2020;III;11 a 5 ;73,1;2;2;1,46
+HRJP;fevereiro;2020;IV;> 15;100;0;0;0
+HRJP;março;2020;I;0 a 5;9,3;0;0;0
+HRJP;março;2020;II;6 a 10;55,9;1;1;0,56
+HRJP;março;2020;III;11 a 5 ;73,1;1;1;0,73
+HRJP;março;2020;IV;> 15;100;0;0;0
+HRJP;abril;2020;I;0 a 5;9,3;0;0;0
+HRJP;abril;2020;III;11 a 5 ;73,1;0;0;0
+HRJP;abril;2020;IV;> 15;100;1;1;1
+HRJP;maio;2020;I;0 a 5;9,3;0;0;0
+HRJP;maio;2020;II;6 a 10;55,9;5;0;2,8
+HRJP;maio;2020;III;11 a 5 ;73,1;0;0;0
+HRJP;maio;2020;IV;> 15;100;1;1;1
+HRJP;junho;2020;I;0 a 5;9,3;2;0;0,19
+HRJP;junho;2020;II;6 a 10;55,9;0;0;0
+HRJP;junho;2020;III;11 a 5 ;73,1;1;0;0,73
+HRJP;junho;2020;IV;> 15;100;0;0;0
+HRJP;julho;2020;I;0 a 5;9,3;2;0;0,19
+HRJP;julho;2020;II;6 a 10;55,9;0;0;0
+HRJP;julho;2020;III;11 a 5 ;73,1;0;0;0
+HRJP;julho;2020;IV;> 15;100;0;0;0
+HRJP;agosto;2020;I;0 a 5;9,3;1;0;0,09
+HRJP;agosto;2020;II;6 a 10;55,9;4;0;2,24
+HRJP;agosto;2020;III;11 a 5 ;73,1;1;1;0,73
+HRJP;agosto;2020;IV;> 15;100;0;0;0
+HRJP;setembro;2020;I;0 a 5;9,3;0;0;0
+HRJP;setembro;2020;II;6 a 10;55,9;0;0;0
+HRJP;setembro;2020;III;11 a 5 ;73,1;0;0;0
+HRJP;setembro;2020;IV;> 15;100;0;0;0
+HRJP;outubro;2020;I;0 a 5;9,3;4;0;0,37
+HRJP;outubro;2020;II;6 a 10;55,9;1;0;0,56
+HRJP;outubro;2020;III;11 a 5 ;73,1;0;0;0
+HRJP;outubro;2020;IV;> 15;100;0;0;0
+HRJP;novembro;2020;I;0 a 5;9,3;1;0;0,09
+HRJP;novembro;2020;II;6 a 10;55,9;1;0;0,56
+HRJP;novembro;2020;III;11 a 5 ;73,1;1;0;0,73
+HRJP;novembro;2020;IV;> 15;100;0;0;0
+HRJP;dezembro;2020;I;0 a 5;9,3;1;0;0,09
+HRJP;dezembro;2020;II;6 a 10;55,9;4;0;2,24
+HRJP;dezembro;2020;III;11 a 5 ;73,1;3;1;2,19
+HRJP;dezembro;2020;IV;> 15;100;0;0;0
