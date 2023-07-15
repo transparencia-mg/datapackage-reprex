@@ -20,9 +20,16 @@ def convert_csv():
 
     # Remove white spaces from the beginning and the end of all columns
     for column in new_columns:
+        # if column == 'distrito':
+        #     import ipdb; ipdb.set_trace(context=10)
+        # read_file[column] = [read_file[column][i].strip() \
+        #                     for i in range(0, len(read_file)) \
+        #                     if isinstance(read_file[column][i], str) \
+        #                     else 'Na']
         read_file[column] = [read_file[column][i].strip() \
-                            for i in range(0, len(read_file)) \
-                            if isinstance(read_file[column][i], str)]
+                             if isinstance(read_file[column][i], str) \
+                             else read_file[column][i] \
+                             for i in range(0, len(read_file))]
 
     #     for i in range(0, len(read_file)):
     #         if isinstance(read_file[column][i], str):
