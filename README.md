@@ -36,10 +36,10 @@ _Não faça commits em branches que você não criou antes de expressamente conv
 - [utf-8-bom](https://github.com/dados-mg/datapackage-reprex/tree/utf-8-bom): Data package com recursos com encoding UTF-8 with BOM
 - [invalid-decimal-char](https://github.com/dados-mg/datapackage-reprex/tree/invalid-decimal-char): Data package com separador de decimal `,` no table schema mas usando `.` no csv
 - [json-data](https://github.com/dados-mg/datapackage-reprex/tree/json-data): Data package com dados armazenados em json
-- [foreign-key-data-package](https://github.com/dados-mg/datapackage-reprex/tree/foreign-key-data-package): Data package com _pattern_ [Foreign Keys to Data Packages](https://specs.frictionlessdata.io/patterns/#table-schema-foreign-keys-to-data-packages) 
+- [foreign-key-data-package](https://github.com/dados-mg/datapackage-reprex/tree/foreign-key-data-package): Data package com _pattern_ [Foreign Keys to Data Packages](https://specs.frictionlessdata.io/patterns/#table-schema-foreign-keys-to-data-packages)
 - [frictionless-describe-dataset-template](https://github.com/dados-mg/datapackage-reprex/tree/frictionless-describe-dataset-template)
 - [generate-erd-pictures](https://github.com/dados-mg/datapackage-reprex/tree/generate-erd-pictures)
 - [test-frictionless-describe](https://github.com/dados-mg/datapackage-reprex/tree/test-frictionless-describe)
 - [test-frictionless-describe](https://github.com/dados-mg/datapackage-reprex/tree/test-datapackage-creator-datapackage.json)
 - [test-validation-038](https://github.com/dados-mg/datapackage-reprex/tree/test-validation-038)
-
+- [list-comprehension](https://github.com/dados-mg/datapackage-reprex/tree/list-comprehension)
