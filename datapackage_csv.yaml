@@ -1,0 +1,50 @@
+resources:
+  - name: mega-sena
+    type: table
+    path: data/Mega-Sena.csv
+    scheme: file
+    format: csv
+    mediatype: text/csv
+    encoding: utf-8
+    schema:
+      fields:
+        - name: Concurso
+          type: integer
+        - name: Data do Sorteio
+          type: string
+        - name: Bola1
+          type: integer
+        - name: Bola2
+          type: integer
+        - name: Bola3
+          type: integer
+        - name: Bola4
+          type: integer
+        - name: Bola5
+          type: integer
+        - name: Bola6
+          type: integer
+        - name: Ganhadores 6 acertos
+          type: integer
+        - name: Cidade / UF
+          type: string
+        - name: Rateio 6 acertos
+          type: string
+        - name: Ganhadores 5 acertos
+          type: integer
+        - name: Rateio 5 acertos
+          type: string
+        - name: Ganhadores 4 acertos
+          type: integer
+        - name: Rateio 4 acertos
+          type: string
+        - name: Acumulado 6 acertos
+          type: string
+        - name: Arrecadação Total
+          type: string
+        - name: Estimativa prêmio
+          type: string
+        - name: Acumulado Sorteio Especial Mega da Virada
+          type: string
+        - name: Observação
+          type: string
