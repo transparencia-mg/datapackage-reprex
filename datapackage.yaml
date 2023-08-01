@@ -1,0 +1,53 @@
+resources:
+  - name: mega-sena
+    type: table
+    path: download/Mega-Sena.xlsx
+    scheme: file
+    format: xlsx
+    mediatype: application/vnd.ms-excel
+    encoding: utf-8
+    dialect:
+      excel:
+        sheet: MEGA SENA
+    schema:
+      fields:
+        - name: Concurso
+          type: any
+        - name: Data do Sorteio
+          type: any
+        - name: Bola1
+          type: any
+        - name: Bola2
+          type: any
+        - name: Bola3
+          type: any
+        - name: Bola4
+          type: any
+        - name: Bola5
+          type: any
+        - name: Bola6
+          type: any
+        - name: Ganhadores 6 acertos
+          type: any
+        - name: Cidade / UF
+          type: any
+        - name: Rateio 6 acertos
+          type: any
+        - name: Ganhadores 5 acertos
+          type: any
+        - name: Rateio 5 acertos
+          type: any
+        - name: Ganhadores 4 acertos
+          type: any
+        - name: Rateio 4 acertos
+          type: any
+        - name: Acumulado 6 acertos
+          type: any
+        - name: Arrecadação Total
+          type: any
+        - name: Estimativa prêmio
+          type: any
+        - name: Acumulado Sorteio Especial Mega da Virada
+          type: any
+        - name: Observação
+          type: any
