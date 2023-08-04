@@ -12,4 +12,4 @@ for mes in range(1,13):
     df = df.loc[(df['ANO'] >= 2022) & (df['MES'] >= mes )]
     numero_registros = df['REGISTROS'].sum()
     numero_registros = format(numero_registros, "6,d").replace(",", ".")
-    print(f'O número de registro de crimes violentos em todo Estado de Minas (RISP) em {calendar.month_name[mes].capitalize()} de 2022 foi de {numero_registros}.')
+    print(f'Foram registrados {numero_registros} crimes violentos em todo Estado de Minas (RISP) em {calendar.month_name[mes].capitalize()} de 2022.')
