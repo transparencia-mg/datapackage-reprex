@@ -1,0 +1,3 @@
+ipdb==0.13.13
+requests==2.31.0
+frictionless[pandas]==4.40.11
