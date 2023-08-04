@@ -43,3 +43,4 @@ _Não faça commits em branches que você não criou antes de expressamente conv
 - [test-frictionless-describe](https://github.com/dados-mg/datapackage-reprex/tree/test-datapackage-creator-datapackage.json)
 - [test-validation-038](https://github.com/dados-mg/datapackage-reprex/tree/test-validation-038)
 - [list-comprehension](https://github.com/dados-mg/datapackage-reprex/tree/list-comprehension)
+- [frictionlessPandas](https://github.com/dados-mg/datapackage-reprex/tree/frictionlessPandas)
