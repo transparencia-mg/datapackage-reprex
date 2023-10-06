@@ -14,7 +14,7 @@ fields:
     description: Código da fonte de recurso origem da receita orçamentária.
     constraints:
       enum:
-        - '1
+        - '1'
         - '2'
         - '3'
         - '4'
